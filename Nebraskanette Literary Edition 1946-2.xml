@@ -1,0 +1,2958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nebraskanette Jan. 1946</title>
+            <editor xml:id="jc">Jocelyn Clayton</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher> Teachers College High School Commercial Arts Department</publisher>
+            <authority>University of Nebraska-Lincoln Archives and Special Collections</authority>
+            <availability><p>The original document is available for viewing at the Univeristy of Nebraska-Lincoln Archives and Special Editions department on City Campus.</p></availability>
+            <date when="1946-01"> Jan. 1946</date>
+            <address>
+               <addrLine>Lincoln, Nebr.</addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Nebraskanette Jan. 1946</title>
+               <editor>Joan Kinsel</editor>
+            <respStmt>
+               <resp>Art Work</resp>
+               <persName>Rosemary Knight, Harian Robb, Bonnie Myers, Bob Sanders</persName>
+            </respStmt>
+            <sponsor>Miss Letta Clark</sponsor>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>University of Nebraska-Lincoln Archives and Special Collections</repository>
+                  <idno>RG# 23-35-02 Box 2 of 7, B2F1, 1946</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>This project was a partnership undertaking for a Digital Archives and Editions course at the University of Nebraska-Lincoln in Fall 2021. Manuscripts were obtained from the University's Archives and Special Editions department. These manuscripts were digitized using TEI on oXygen to allow the first Nebraskanette Literary Editions to be accessible to people outside of the Archives.</p>
+        </projectDesc>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="English">English</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <listChange>
+           <change when="2021-11-29" who="#jc" status="draft">Finished notes and work cited entries</change>
+           <change when="2021-11-22" who="#jc" status="draft">Added notes, created works cited entries, changed formatting for Table of Contents, deleted spaces between lines ending with "-" to prevent space in HTML</change>
+           <change when="2021-11-19" who="#jc" status="draft">Reverted most of the coding from 11-18-2021.</change>
+           <change when="2021-11-18" who="#jc" status="draft">Changed some encoding to enable XSLT and CSS changes</change>
+           <change when="2021-11-15" who="#jc" status="draft">Added facsimile to page breaks</change>
+           <change when="2021-11-10" who="#jc" status="draft">Reviewed comments from professors, added notes, added facsimile to page breaks</change>
+           <change when="2021-10-26" who="#jc" status="draft">Finished transcription and encoding</change>
+           <change when="2021-10-22" who="#jc" status="draft">Transcribed and encoded</change>
+           <change when="2021-10-21" who="#jc" status="draft">Transcribed and encoded</change>
+           <change when="2021-10-20" who="#jc" status="draft">Transcribed and encoded</change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+     <front>
+        <pb facs="1946_00.jpg"/>
+<titlePage>
+   <docTitle rend="centered"><titlePart type="main">NEBRASKANETTE</titlePart></docTitle>
+        <docImprint><address rend="right-aligned"><addrLine>LINCOLN, NEBR.</addrLine></address></docImprint>
+        <figure><figDesc>hand-drawn cover art depicting a lane leading up to a house with smoke coming from the fireplace. There is a fence at the bottom of the page to denote when the road becomes a driveway. A tree grows along the fenceline.</figDesc></figure>
+        <docImprint><affiliation rend="right-aligned">TEACHERS COLLEGE HIGH</affiliation></docImprint>
+        <docDate rend="right-aligned">JAN. 1946</docDate>
+</titlePage>
+        <pb facs="1946_01.jpg"/>
+        <div type="table_of_contents">
+        <head type="1" rend="centered">THE NEBRASKANETTE</head>
+        <space type="double"/>
+        <head type="2" rend="centered">Table of Contents</head>
+        <space type="quadruple"/>
+              <table>
+                 <row>
+                    <cell>
+                       <cb/><p>Preface.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.Joan Kinsel</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>3</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Stagefright&#160;&#160;&#160;&#160;..&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;.Barbara Fifer</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>4</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Willa Cather&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Edith Spatz</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>6</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>My Christmas Memories&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Howard Bingham</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>7</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>A Bulging Buss&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Mary Lou McGerr</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>8</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Boys Who Smoke&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Martha Webb</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>9</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Youth Week.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.Harriet Crawford</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>10</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Tripping the Light Fantastic.&#160;&#160;&#160;&#160;.Twyla Dobbins</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>11</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Negroes and Whites&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Lee Barnhill</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>13</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>My Home.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Ruthie Merklin</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>14</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Jazz Maniacs&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;John Moritz</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>16</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Sleep&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Mary Lou McGerr</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>17</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Ice Skating or Otherwise&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Marian Waddell</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>18</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Three Great Documents in the</p><p>&#160;&#160;&#160;&#160;History of the U.S..&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Ruby Hock</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>19</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Who Were the Greeks.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Leslie Chisholm</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>23</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Buses- -To Be Squashed or</p><p>&#160;&#160;&#160;&#160;Not To Be Squashed&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Shirley Will</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>25</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Macbeth.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Frank Faires</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>27</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Old Friends of the Family.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.Jenibel Briggs</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>30</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>History of Algebra&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Audrey Flood</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>32</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Perfume and the Ladies.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Roger Phipps</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>33</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>One Too Many Sisters&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.Roberta Flory</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>35</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>I'll Be Home for Christmas&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.Ardeen Miller</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>37</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>The Corn Cob&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Frank Faires</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>38</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>How Many Ages.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Joan Kinsel</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>40</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>Macbeth..&#160;&#160;&#160;&#160;..&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Betty Schwaninger</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>43</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <cb/><p>The Dream Comes True&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;. Katie Lehman</p>
+                    </cell>
+                    <cell>
+                       <cb/><p>47</p>
+                    </cell>
+                 </row>
+              </table>
+        </div>
+        <pb facs="1946_02.jpg"/>
+        <div rend="titlepage">
+           <space type="quadruple"/>
+           <head type="2" rend="centered">THE NEBRASKANETTE</head>
+           <head type="subtitle" style="publisher" rend="centered">Teachers College High School  University of Nebraska</head>
+           <head type="subtitle" style="location">Lincoln, Nebraska</head>
+           <space type="double"/>
+              <label rend="centered">STAFF</label>
+              <space type="double"/>
+              <table>
+                 <row>
+                    <cell>
+                       <p>Editor&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;Joan Kinsel</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <p>Art Work&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;Rosemary Knight</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell rend="right aligned">
+                       <p>Harlan Robb</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell rend="right aligned">
+                       <p>Bonnie Myers</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell rend="right aligned">
+                       <p>Bob Sanders</p>
+                    </cell>
+                 </row>
+                 <row>
+                    <cell>
+                       <p>Sponsor.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.Miss Letta Clark</p>
+                    </cell>
+                 </row>
+              </table>
+              </div>
+              <space type="double"/>
+              <div>
+                 <label rend="centered">Student Teachers <lb/>Commercial Arts Department</label>
+                 <space type="double"/>
+                    <table>
+                       <row>
+                          <cell>
+                             <p>Dorothy Addleman&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.Jane Fairchild</p>
+                          </cell>
+                       </row>
+                       <row>
+                          <cell>
+                             <p>Alberta Andersen&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.Bernette Hadan</p>
+                          </cell>
+                       </row>
+                       <row>
+                          <cell>
+                             <p>Elaine Anderson.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.Mrs. Betty Ramey</p>
+                          </cell>
+                       </row>
+                       <row>
+                          <cell>
+                             <p>Eileen Daskovsky&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.Patricia Terhuno</p>
+                          </cell>
+                       </row>
+                       <row>
+                          <cell>
+                             <p>Supervisor&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;.&#160;&#160;Gertrude Knie</p>
+                          </cell>
+                       </row>
+                    </table>
+         </div>
+        <pb facs="1946_03.jpg"/>
+        <div>
+           <space type="quadruple"/>
+           <head type="2" rend="centered">PREFACE</head>
+           <space type="triple"/>
+           <p>
+              <figure><figDesc>fancy "L"</figDesc></figure>Last year a new idea was worked out <lb/>
+              whereby the longer literary efforts of <lb/>
+              the students could be published. The <lb/>
+              result was a magazine edition of the <lb/>
+              <emph rend="underline">Nebraskanette</emph> and it proved successful <lb/>
+              enough to be worth trying again. We <lb/>
+              hope you enjoy it and that in future <lb/>
+              years more and better magazines will be <lb/>
+              printed.
+           </p>
+           <space type="double"/>
+           <closer rend="right-aligned"><signed>- -The Editor</signed></closer>
+        </div>
+        <space type="quadruple"/>
+        <fw>
+           <hi rend="centered">3</hi>
+        </fw>
+     </front>
+      <body>
+         <pb facs="1946_04.jpg"/>
+         <div>
+         <head type="2" rend="centered">STAGEFRIGHT</head>
+         <space type="double"/>
+         <byline rend="centered">Barbara Fifer</byline>
+         <space type="triple"/>
+            <p>
+               <figure><figDesc>fancy "M"</figDesc></figure>My first appearance in public was a trying or-<lb/>deal. I was playing in a piano recital and there <lb/>
+               were about fifty other students beside myself who <lb/>
+               were also playing in the recital.  I was eleven <lb/>
+               years old and thoroughly frightened.  I was to <lb/>
+               play a waltz and a march and was about the fortieth <lb/>
+               student to play in the program.
+            </p>
+            <p>
+            &#160;&#160;&#160;&#160;Seeing the big audience made me shudder in my <lb/>
+            tracks and I was in a terrible suspense waiting <lb/>
+            for my turn to play.  When my turn finally came, I <lb/>
+            slowly and quite unsteadily, to be sure, made my <lb/>
+            way across the stage to the piano.  My teeth were <lb/>
+            chattering and suddenly my fingers became very <lb/>
+            stiff!  Everyone was watching me, so I tried to <lb/>
+            begin to play.  Somehow I finished the waltz and <lb/>
+            was waiting for the audience to become quiet in <lb/>
+            order that I could finish and run off the stage <lb/>
+            from all these frightening people.  I played <lb/>
+            the march as if I were chasing a fire engine to a <lb/>
+            fire, and almost fell, because I was in such a <lb/>
+            hurry to leave the stage.
+         </p>
+         <p>
+            &#160;&#160;&#160;&#160;
+            My next public appearance came when I learned <lb/>
+            how to play the violin and joined the Irving Junior <lb/>
+            High School orchestra.  I also played in the Lin-<lb/>coln High School Summer "A" orchestra.
+         </p>
+         <p>
+            &#160;&#160;&#160;&#160;
+            The most <choice><sic>embarassing</sic><corr>embarrassing</corr></choice> situation arose while I <lb/>
+            was playing in a concert at Northeast High School. <lb/>
+            It happened just before curtain time.  I broke a <lb/>
+            violin string and was unable to fix it myself. Our <lb/>
+            conductor finally fixed it for me delaying the pro-<lb/>gram about a half minute.
+         </p>
+         <fw>
+            <hi rend="centered">4</hi>
+         </fw>
+            <pb facs="1946_05.jpg"/>
+         <fw>
+            <hi rend="centered">Stagefright</hi>
+            <hi rend="right aligned">5</hi>
+         </fw>
+            <space type="triple"/>
+         <p>
+            &#160;&#160;&#160;&#160;
+            My second piano recital was a little more like <lb/>
+            recitals ought to be.  However, I was so scared my <lb/>
+            hands became cold, and I could not move my fingers. <lb/>
+            The agony and suspense of waiting for my turn to <lb/>
+            play in the program was dreadful.  I was contin-<lb/>uously trying to tell myself that I might profit <lb/>
+            by listening to the others play.  The main diffi-<lb/>culty was sitting still without making any noises<lb/>
+            and not being conspicuous.  I was supposed to be <lb/>
+            enjoying the music!  My main accomplishment of <lb/>
+            this recital was that there was a more distinct <lb/>
+            difference between my march and other number.
+         </p>
+         <p>
+            &#160;&#160;&#160;&#160;
+            Playing at home also presets its problems.  I <lb/>
+            do not know of anyone who likes to listen to any-<lb/>one practice piano.  This is particularly true at <lb/>
+            our house.  I am terribly annoyed when I know that <lb/>
+            other people are listening to me practice and wat-<lb/>ching my play.  The only audience that does not <lb/>
+            other me is- - -Mom.  She usually sits and knits <lb/>
+            while she listens to me play.  She criticizes my <lb/>
+            playing, but it does not seem to bother me.
+         </p>
+         <p>
+            &#160;&#160;&#160;&#160;
+            Last year I played violin at Teachers College <lb/>
+            High School.  We called our small class of three <lb/>
+            students a "String Trio."  Because of the size of <lb/>
+            the class, we played solos almost every day, and I <lb/>
+            was gradually beginning to  lose some of my stage-<lb/>fright.
+         </p>
+         <p>
+            &#160;&#160;&#160;&#160;
+            No matter how often I play in public, I always <lb/>
+            have at least a mild case of- - - - - - - - - -Stagefright.
+         </p>
+         </div>
+         <pb facs="1946_06.jpg"/>
+         <div>
+            <head type="2" rend="centered">WILLA CATHER</head>
+         <space type="double"/>
+         <byline rend="centered">Edith Spatz</byline>
+         <space type="double"/>
+         <p>
+            <figure><figDesc>fancy "I"</figDesc></figure>I have read a lot  of Willa Cather's<ptr target="wc"/> books and <lb/>
+            find them interesting.  She tells in a way of <lb/>
+            understanding in all her books and they never <lb/>
+            get boring if you like <choice><sic>peoneer</sic><corr>pioneer</corr></choice>stories.
+         </p>
+         <p>
+            &#160;&#160;&#160;&#160;
+            Here are some of her books:  <emph rend="underline">O Pioneers</emph>.  This <lb/>
+            story which Willa Cather has written is particu-<lb/>larly written for herself about Bohemians and <lb/>
+            <choice><sic>Scandenavians</sic><corr>Scandinavians</corr></choice>, neighbors to each other.  Read the <lb/>
+            book.
+         </p>
+         <p>
+            &#160;&#160;&#160;&#160;
+            <hi rend="underline">The Song of the Lark</hi>.  This story is of an Am-<lb/>erican opera singer and her childhood in the Colo-<lb/>rado desert and her early struggle in Chicago, her <lb/>
+            romantic adventures among the cliff dwellers' ruins <lb/>
+            in Arizona, her splendid triumph on the operatic <lb/>
+            stage.
+         </p>
+         <p>
+            &#160;&#160;&#160;&#160;
+            <hi rend="underline">My Antonia</hi> is another good story.  It is packed <lb/>
+            with the feeling of the country.  A scant para-<lb/>graph sets you out on the plain and the breath of <lb/>
+            the wind never leaves your face.
+         </p>
+         <p>
+            &#160;&#160;&#160;&#160;
+            <hi rend="underline">Death Comes for the Archbishop</hi>. This book is <lb/>
+            mainly about the Archbishop and all his trouble. <lb/>
+            It is a good story for people who like traveling.<lb/>
+         </p>
+         <p>Other Stories:</p>
+            <p><hi rend="underline">One of Ours</hi></p>
+            <p><hi rend="underline">A Lost Lady</hi></p>
+            <p><hi rend="underline">A Lost Lady</hi></p>
+            <p><hi rend="underline">The Professor's House</hi></p>
+            <p><hi rend="underline">My Mortal Enemy</hi></p>
+            <p><hi rend="underline">Shadows on the Rock</hi></p>
+         <p>Short Stories:</p>
+            <p><hi rend="underline">Youth and the Bright Medusa</hi></p>
+            <p><hi rend="underline">Obscure Destinies</hi></p>
+            <p><hi rend="underline">December Night</hi></p>
+            <p><hi rend="underline">Alexander's Bridge</hi></p>
+         <fw>
+            <hi rend="centered">6</hi>
+         </fw>
+         </div>
+         <pb facs="1946_07.jpg"/>
+         <div>
+            <head type="2" rend="centered">MY CHRISTMAS MEMORIES</head>
+            <space type="double"/>
+            <byline rend="centered">Howard Bingham</byline>
+            <space type="triple"/>
+            <p>
+               <figure><figDesc>fancy "S"</figDesc></figure>Some of the happiest memories of my childhood <lb/>
+               are centered around Christmas time.  We always <lb/>
+               have a Christmas tree with gifts when we get up <lb/>
+               Christmas morning.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               My mother recalls one Christmas when she sent <lb/>
+               my brothers and me back to bed four times during <lb/>
+               the night to finally have us awake the whole <lb/>
+               household about five a.m.  I remember the high-<lb/>light for me on this particular Christmas was a <lb/>
+               red wagon.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               After eating breakfast and examining our gifts <lb/>
+               left by Santa, we always went to my grandmother's <lb/>
+               house for a noon-time Christmas dinner of roast <lb/>
+               turkey, goose, or duck with cranberries and dress-<lb/>ing, mince and pumpkin pie, fruit cake made by <lb/>
+               Grandmother, and everything in the way of food any <lb/>
+               one can imagine.  All my cousins, brothers, and <lb/>
+               sisters, and even the grownups, ate until they <lb/>
+               were practically unconscious.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               <figure><figDesc>Hand-drawn little boy playing with a train.</figDesc></figure>
+               Then we op-ened gifts which <lb/>
+               the relatives always exchanged. <lb/>
+               Each year the procedure was <lb/>
+               the same.  Then all the young <lb/>
+               folks went out sleigh riding, <lb/>
+               skating, or play-ing games while <lb/>
+               the women washed the dishes after <lb/>
+               dinner.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Since we are now older, we <lb/>
+               celebrate Christ-mas in our own <lb/>
+               home, often with a lot of aunts, uncles, and cous-<lb/>ins helping us.
+            </p>
+            <fw>
+               <hi rend="centered">7</hi>
+            </fw>
+            <pb facs="1946_08.jpg"/>
+            <fw>
+               <hi rend="centered">The Nebraskanette</hi>
+               <hi rend="left aligned">8</hi>
+            </fw>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               This will be the first Christmas any member of <lb/>
+               our family of ten has had to be away from home, <lb/>
+               but I know my brother, who is away, will have a <lb/>
+               lot of pleasant memories of past Christmases.  We <lb/>
+               all hope he will be home again by next Christmas.
+            </p>
+         </div>
+         <space type="triple"/>
+         <div><lg type="poem">
+            <head type="2" rend="centered">A BULGING BUS</head>
+            <space type="double"/>
+            <byline rend="centered">Mary Lou McGerr</byline>
+            <space type="triple"/>
+              <lg>
+                 <l>I hate to board a bus,</l>
+                 <l>Cause everyone's in such a fuss.</l>
+              </lg>
+               <space type="double"/>
+               <lg>
+                  <l>They push, they joggle and jar,</l>
+                  <l>One man yells, "I'm back too far."</l>
+               </lg>
+               <space type="double"/>
+               <lg>
+                  <l>Some are pushing, some calling</l>
+                  <l>Few stumbling, old ones falling</l>
+               </lg>
+               <space type="double"/>
+               <lg>
+                  <l>And the woman with bundles piled high,</l>
+                  <l>Is a menace to all near by.</l>
+                  <l>The capacity is thirty or more,</l>
+                  <l>But some are sittin' on the floor.</l>
+               </lg>
+               <space type="double"/>
+               <lg>
+                  <l>When the door opens a few fall out</l>
+                  <l>And finally the man that's stout</l>
+                  <l>Gets off, and all is well,</l>
+                  <l>'Til someone lets out a yell.</l>
+               </lg>
+               <space type="double"/>
+               <lg>
+                  <l>And trouble begins anew,</l>
+                  <l>Why can't I have a car like you.</l>
+               </lg>
+         </lg></div>
+         <pb facs="1946_09.jpg"/>
+         <div>
+            <head type="2" rend="centered">BOYS WHO SMOKE</head>
+            <space type="double"/>
+            <byline rend="centered">Martha Webb</byline>
+            <space type="double"/>
+            <p>
+               <figure><figDesc>fancy "A"</figDesc></figure>All races have found something to smoke.  People <lb/>
+               down through the ages have been smoking powdered <lb/>
+               herbs, grasses, and medical powders.  Indians were <lb/>
+               the first to smoke tobacco.  They taught the colo-<lb/>nists how to raise and use it.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Young people have been given a healthy body and <lb/>
+               talents.  When they take to smoking they are wast-<lb/>ing health, talent, and money.  Young people are <lb/>
+               more susceptible to injuries from smoking than are <lb/>
+               adults.  Those who smoke never live as long as <lb/>
+               those who do not.  Smoking shortens their wind and <lb/>
+               causes a cough.  It also breaks down their health. <lb/>
+               The latter isn't something money can buy after it <lb/>
+               is lost.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Boys can't impress other people by smoking. <lb/>
+               Anyone can learn to smoke- - even a five year old. <lb/>
+               It's not an art, as some boys would like us to <lb/>
+               believe.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               To my way of thinking there are three distinct <lb/>
+               types of youthful smokers:
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Those who say:
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               "I'm tough, see?  I'm fifteen years old, but <lb/>
+               you think I look twenty-one?"
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Number two:  The type who act like Humphrey <lb/>
+               Bogart and take long drags at their cigarettes and <lb/>
+               manufacture a tough look in their eyes.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Number three:  They type who act as if they have <lb/>
+               been smoking all their lives, when in reality only <lb/>
+               lately has it become a habit.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               They don't fool us a bit and it doesn't make <lb/>
+               them look more manly.  Besides, who wants to be <lb/>
+            <fw>
+               <hi rend="centered">9</hi>
+            </fw>
+               <pb facs="1946_10.jpg"/>
+            <fw>
+               <hi rend="centered">The Nebraskanette</hi>
+               <hi rend="left aligned">10</hi>
+            </fw>
+            <space type="double"/>
+               near a boy who smells like a smoke stack.  They <lb/>
+               look rather silly with a cigarette dangling out of <lb/>
+               the corner of their mouth.  Anyway we prefer the <lb/>
+               wholesome Van Johnson type.  We don't like to see <lb/>
+               boys start bad habits which will last them all <lb/>
+               their lives.<ptr target="#smoke"/>
+            </p>
+         </div>
+         <space type="quadruple"/>
+         <div>
+            <head type="2" rend="centered">YOUTH WEEK</head>
+            <head type="subtitle" rend="centered">JAN. 27-FEB.4, 1946</head>
+            <space type="double"/>
+            <byline rend="centered">Harriet Crawford</byline>
+            <space type="double"/>
+            <p>
+               <figure><figDesc>fancy "T"</figDesc></figure>Theme:  Mold the World Through Daily Christian
+               Living.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Youth Week<ptr target="#yw"/> is observed by all young people of <lb/>
+               the Protestant Churches in North America and is <lb/>
+               sponsored by the United Christian Youth Movement. <lb/>
+               During this week many activities are carried out <lb/>
+               in the local churches and schools.  Some of the <lb/>
+               activities to take place in Lincoln include serv-<lb/>ices in the churches given by the young people on <lb/>
+               Sunday, January 27, a city-wide party that will be <lb/>
+               held at the First Plymouth Congregational Church <lb/>
+               on February 1, and a city-wide rally to be held <lb/>
+               February 3, at one of the local churches.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Youth Week began more than thirty years ago in <lb/>
+               the annual celebration of the birthday of Christ-<lb/>ian Endeavor, February 2.  With the growth of the <lb/>
+               United Christian Youth Movement (continent wide, <lb/>
+               interdenominational, representing 10,000,000 Prot-<lb/>estant young people) there grew a need for a <lb/>
+               united observance.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Youth Week is a United Effort to Win Youth for <lb/>
+               the Church.
+            </p>
+         </div>
+         <pb facs="1946_11.jpg"/>
+         <div>
+            <head type="2" rend="centered">TRIPPING THE LIGHT FANTASTIC</head>
+            <head type="subtitle"><specDesc style="centered"/>(Consisting of a critical analysis of the positions most commonly used therein)</head>
+            <space type="double"/>
+            <byline rend="centered">Twyla Dobbins</byline>
+            <space type="double"/>
+            <p>
+               <figure><figDesc>fancy "D"</figDesc></figure>Dancing is a great American sport.  It provides <lb/>
+               entertainment not only for the people who partici-<lb/>pate bus also for those who watch.  Perhaps it is <lb/>
+               even more enjoyable to be among the watchers.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               I have often wished I were an orchestra member <lb/>
+               who could travel over the national playing for dan-<lb/>ces.  Then I could observe the different positions <lb/>
+               used in sections other than my own locality.  As <lb/>
+               it is, I shall have to content myself with a de-<lb/>tailed description of the dancing postures with <lb/>
+               which I am familiar.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Some couples use the far-away position.  It is <lb/>
+               formed thus:  The couple stand as far apart as <lb/>
+               possible, close their eyes, reach out and grab for <lb/>
+               each other's waist and shoulder.  The results are <lb/>
+               disastrous!  There they are, dancing away- - -but <lb/>
+               the way they look!  It's as good as a movie to <lb/>
+               watch them.  About four feet apart, they struggle <lb/>
+               to get farther apart but succeed only in making <lb/>
+               certain parts of their anatomy protrude in a very <lb/>
+               undignified manner.  This version of the dance is <lb/>
+               very common.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               There is also the "cuddle-up" position which <lb/>
+               is usually <choice><orig>practised</orig><reg>practiced</reg></choice> by c.f.'s ("educated foxes," <lb/>
+               more commonly known as "wolves.")  This is just <lb/>
+               the opposite of the far-away position.  The man <lb/>
+               tries to choke the girl, while she, not to be out-<lb/>done, proves her possession of a superwoman grip <lb/>
+               by clutching his shoulder tightly.  Instead of im-<lb/>pressing the innocent by-stander with the beauty <lb/>
+            <fw>
+               <hi rend="centered">11</hi>
+            </fw>
+               <pb facs="1946_12.jpg"/>
+            <fw>
+               <hi rend="centered">The Nebraskanette</hi>
+               <hi rend="left aligned">12</hi>
+            </fw>
+            <space type="double"/>
+               of their passion, they seem to be in the throes of<lb/>
+               a violent antipathy.  Perhaps they believe their<lb/>
+               attitude appears to be that of lovers- -but oh, <lb/>
+               brother!
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Dancing on one's feet is a good idea.  So many <lb/>
+               people seem to do it.  However, dancing on someone <lb/>
+               else's feet is also a very common practice.  The <lb/>
+               latter is not particularly popular with the person <lb/>
+               to whom the feet belong.  For some reason, each <lb/>
+               individual likes to dance on his own feet, but <lb/>
+               does not care to have others dance on them as <lb/>
+               well.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               In order to avoid stepping on other dancers' <lb/>
+               feet, many participants in the sport take long, <lb/>
+               sweeping steps.  They may think they look graceful, <lb/>
+               but they really resemble nothing so much as assor-<lb/>ted ostriches walking about the dance floor.  This <lb/>
+               method usually eliminates the problem of stepping <lb/>
+               on people's feet, but who wants to look like an <lb/>
+               ostrich?
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               One frequently meets the boy who is obviously <lb/>
+               doing a dance of duty.  His mouth is set in a firm, <lb/>
+               unpleasant line; and, frowning menacingly at one <lb/>
+               and all, he pushes his unhappy partner around the <lb/>
+               floor as if she wore a sack of meal.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Then there is the couple who seem utterly ob-<lb/>livious to everything and everyone around them. <lb/>
+               As they gaze soulfully at each other, their eyes <lb/>
+               gradually droop shut, and they imagine themselves <lb/>
+               in Heaven.  The other dancers express their dis-<lb/>approval by frowning and muttering.  Finally, the <lb/>
+               "out of this world" couple are brought rudely back <lb/>
+               to earth by a series of bumps and collisions.  Does <lb/>
+               this bother them?  On, no!  They dance ahead as if <lb/>
+               there had been no interruption.  At least the other <lb/>
+               dancers retire and watch them as they drift <lb/>
+               through dreamland.  The floor is theirs, and they <lb/>
+               use it, too.
+            </p>
+            <pb facs="1946_13.jpg"/>
+            <fw>
+               <hi rend="centered">Negroes and Whites</hi>
+               <hi rend="right aligned">13</hi>
+            </fw>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The show-off couple can be found upon any dance <lb/>
+               floor.  Their main purpose is to be outlandish and <lb/>
+               different.  They will dance in any way in order to <lb/>
+               make themselves the center of attention.  They <lb/>
+               will execute rapid turns, hop, jump, or even turn <lb/>
+               somersaults in order to be the chief attraction. <lb/>
+               This mode of dancing is commonly called "jitter-<lb/>bugging."
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Yes, dancing is fun; but it's better than a <lb/>
+               three-ring circus to watch other people trip the <lb/>
+               light fantastic.
+            </p>
+         </div>
+         <space type="triple"/>
+         <div>
+            <figure>
+               <figDesc rend="left aligned">A hand drawn face appearing to be black</figDesc>
+            </figure>            
+            <head type="2" rend="centered">NEGROES AND WHITES<ptr target="#naw"/></head> 
+            <space type="double"/>
+            <byline rend="centered">Lee Barnhill</byline>
+            <figure>
+               <figDesc rend="right aligned">A hand drawn face appearing to be white</figDesc>
+            </figure>    
+            <space type="triple"/>
+            <p>
+               <figure><figDesc>fancy "I"</figDesc></figure>I used to look at a negro as a person who was <lb/>
+               sort of dirty and dangerous because I lived in the <lb/>
+               South a great deal of my life-time.  Where I lived <lb/>
+               a white man who killed a negro was put in one night <lb/>
+               and let out the next morning, but if a negro killed <lb/>
+               a white, the negro was put to death immediately.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Down South a negro has his own school, his own <lb/>
+               church and his own side of the railroad track; but <lb/>
+               here they sometimes go to school with whites. <lb/>
+               For example:  the other day I saw two girls walk-<lb/>ing down the road from school.  They were about <lb/>
+               six and four, the older a negro, the younger a <lb/>
+               white.  They had their arms around each other like <lb/>
+               a pair of sisters.  Down south if a white mother <lb/>
+               saw this she probably would have had the negro's <lb/>
+               parents put in jail, which is very easy to do.  I <lb/>
+               think, if we would not curse the negroes so much <lb/>
+               and let them be more like us, we would have much <lb/>
+               better luck with them.  I think there would be <lb/>
+               fewer fights and killings.  When I get on a bus <lb/>
+               lots of times I see a negro in one corner all by <lb/>
+               <pb facs="1946_14.jpg"/>
+            <fw>
+               <hi rend="centered">The Nebraskanette</hi>
+               <hi rend="left aligned">14</hi>
+            </fw>
+            <space type="double"/>
+               himself.  The whites won't sit by him at all. <lb/>
+               They act as if they are better than he is.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               I had a very good friend once, a man about fifty <lb/>
+               years old.  He was a negro.  He liked me very much <lb/>
+               and would do almost anything for me.  Some negroes <lb/>
+               are all right but others are just born with crook-<lb/>edness.  We had negroes working for us who had all <lb/>
+               come down in a truck from Austin or Houston.  The <lb/>
+               whites just haul them around in trucks like horses. <lb/>
+               Wherever the driver of the truck takes them that's <lb/>
+               where they go.  They live in tents, caves or right <lb/>
+               out in the open with only a couple of blankets. <lb/>
+               Their usual work is in the cotton fields, hoeing <lb/>
+               or picking.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               I think we should treat the negroes better.
+            </p>
+         </div>
+         <space type="double"/>
+         <div>
+            <head type="2" rend="centered">MY HOME</head>
+            <space type="double"/>
+            <byline rend="centered">Ruthie Merklin</byline>
+            <space type="double"/>
+            <p>
+               <figure><figDesc>fancy "M"</figDesc></figure>My home, the State Home for Dependent Children<ptr target="#sh"/>, <lb/>
+               is located at University Place, 5903 Walker Avenue. <lb/>
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Several years ago the home of Mr. and Mrs. C. <lb/>
+               C. White was bought by the State for $32,000.  Be-<lb/>fore this time the State Home was located on <lb/>
+               twelfth street.  Since White Hall was purchased <lb/>
+               the State has added five different main buildings. <lb/>
+               Now most of the children are located on the <lb/>
+               grounds.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               White Hall is the main building.  Here are lo-<lb/>cated the main offices and employees' kitchen and <lb/>
+               dining room.  On the third floor of White Hall the <lb/>
+               senior girls and I live.  Here are also the super-<lb/>intendent's apartment and welfare workers' offices.<lb/>
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Next is the girls' Training Cottage.  The Cot-<lb/>tage is a large two story white house where girls <lb/>
+               stay for training when they become twelve years <lb/>
+               old.
+            </p>
+            <pb facs="1946_15.jpg"/>
+            <fw>
+              <hi rend="centered">My Home</hi>
+              <hi rend="right aligned">15</hi>
+            </fw>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               At the cottage the girls learn to cook, sew, <lb/>
+               and clean.  After they are fourteen to fifteen <lb/>
+               years old, they go to White Hall.  In the basement <lb/>
+               of the Cottage the fifth and sixth grade have <lb/>
+               their school room.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Benson Hall is named after Mrs. Benson who was <lb/>
+               a chairman of the Board of Control.  It consists <lb/>
+               of the main kitchen and dining room in the base-<lb/>ment, the first and second <choice><sic>nersery</sic><corr>nursery</corr></choice> on the first floor <lb/>
+               and the clinic room or doctors' offices.  The sec-<lb/>ond floor is where the smaller girls have their <lb/>
+               department.  The third floor has a dentist's room <lb/>
+               and a hospital where all the children are isolated <lb/>
+               when they first come into the institution before <lb/>
+               they are put in a department.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               On the east side the boys have their department. <lb/>
+               In the basement of this building the first four <lb/>
+               grades have their school room.  On the first and <lb/>
+               second floor the small boys from four to nine also <lb/>
+               the large boys from nine to fourteen have their <lb/>
+               department here.  The third floor consists of rooms <lb/>
+               for employees.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Besides these main buildings we have a large <lb/>
+               garage, a laundry and a school house for sixth to <lb/>
+               eighth grade.  During the past two years we have <lb/>
+               added two new building, one by the school for re-<lb/>creation or play and then we completed late this <lb/>
+               fall a large cave to store our canned fruit and <lb/>
+               vegetables, potatoes, cabbage, etc., we raised <lb/>
+               in the summer.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Then out two miles we have a farm for boys from <lb/>
+               fourteen to eighteen.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The boys have a man and wife to take care of <lb/>
+               them.  They help put in the crops and harvest them, <lb/>
+               do the house cleaning, chores, get meals, and do <lb/>
+               the dishes.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               They get up around 5:30 or 6:00 and go to bed <lb/>
+               at 8:30 or 9:00.
+            </p>
+            <pb facs="1946_16.jpg"/>
+            <fw>
+               <hi rend="centered">The Nebraskanette</hi>
+               <hi rend="left aligned">16</hi>
+            </fw>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Mrs. Mouden, our superintendent, also bought <lb/>
+               the farm since she has been at the home.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               We also have the first nursery and second nur-<lb/>sery.  In the first nursery the babies are from <lb/>
+               three weeks to two years old.  After they leave <lb/>
+               the first nursery they go to the second nursery <lb/>
+               where they stay from two years to four or five <lb/>
+               years, when the girls go to Benson Hall and the <lb/>
+               boys to West Side or Hager Hall.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               At the home we have seventy-two employees at <lb/>
+               the present time.  That includes the file clerk, <lb/>
+               bookkeeper, and superintendent and stenographers. <lb/>
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               We also have plenty of entertainment; we always <lb/>
+               have parties and mixers.  We always celebrate the <lb/>
+               <choice><sic>fourth</sic><corr>Fourth</corr></choice>of July and all other holidays.  In the <lb/>
+               fall we go to the Circus and State Fair.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Well this is about all I can say, so I'll quit <lb/>
+               by saying that I am proud of my home.
+            </p>
+         </div>
+         <space type="triple"/>
+         <div> 
+            <head type="2" rend="centered">JAZZ MANIACS<ptr target="#jm"/></head>
+            <space type="double"/>
+            <byline rend="centered">John Moritz</byline>
+            <space type="triple"/>
+            <p> 
+               <figure><figDesc>fancy "H"</figDesc></figure>Have you ever met a maniac; a jazz maniac, I<lb/>
+               mean?  They are the people who think sharps, and <lb/>
+               dance flats.  All they ever think of is music. <lb/>
+               Don't get my wrong, I like music, and jazz, but <lb/>
+               not this type.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               At a dance you're dancing peacefully with a <lb/>
+               girl when somebody stops the victrola and puts on <lb/>
+               a music plate he brought from home.  Out of this <lb/>
+               record comes forth sounds as though the roof were <lb/>
+               falling in.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Two <choice><sic>wierdly-clad</sic><corr>weirdly-clad</corr></choice> figures, maniacs, in other <lb/>
+               words, jump on to the floor, and start hitting <lb/>
+               each other over the head.  Then they start some <lb/>
+               very interesting aerobatics.  He grabs her, she <lb/>
+            <pb facs="1946_17.jpg"/>
+            <fw>
+               <hi rend="centered">Sleep</hi>
+               <hi rend="right aligned">17</hi>
+            </fw>
+               <space type="double"/>
+               grabs him.  Wham!  Big fight!  They call that dan-<lb/>cing.  When the <hi rend="underline">music</hi> stops, they drag each other <lb/>
+               off the floor and congratulate themselves on what <lb/>
+               a swell dance they had.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               You start dancing again, when who should heave <lb/>
+               into view but our bouncing buddies.  They jazz to <lb/>
+               a waltz.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               After throwing you off the floor, our maniacs <lb/>
+               do a series of wiggles that would make Houdini <lb/>
+               crawl.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Now that I've given you a general description <lb/>
+               of their dancing technique, let me show you how <lb/>
+               they talk.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               He:  "How about bashin' the bundle with me, <lb/>
+               bee?"
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Silly, isn't it?
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;               
+               She:  "Not 'til you perambulate around to the <lb/>
+               glass gaze and slick down your mop."
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Did you ever hear such stuff?  I didn't until <lb/>
+               then.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               I asked a friend of mine, who is one of those <lb/>
+               moon gazers, to go to a psychiatrist, but he re-<lb/>fused.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               There's not much more to say on the topic ex-<lb/>cept that the maniac piles his home full of re-<lb/>cords of every type and description.  He treasures <lb/>
+               each one more than the next and will murder you if <lb/>
+               you break one of the million.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               So, for quieter living, don't go near one.
+            </p>
+         </div>
+         <space type="double"/>
+         <div> <lg type="poem">
+            <head type="2" rend="centered">SLEEP</head>
+            <space type="double"/>
+            <byline rend="centered">John Moritz</byline>
+            <space type="triple"/>
+               <lg> 
+                  <l>Sleep, you elusive old sandman</l>
+                  <l>Come and assuage my sorrow.</l>
+                  <l>Sleep, 'neath your wings of oblivion</l>
+                  <l>Bury tonight and bring tomorrow.</l>
+               </lg> </lg>
+        </div>
+         <pb facs="1946_18.jpg"/>
+        <div>
+           <space type="quadruple"/>
+           <head type="2" rend="centered"> ICE SKATING OR OTHERWISE</head>
+           <space type="double"/>
+           <byline rend="centered">Marian Waddell</byline>
+           <space type="triple"/>
+           <p>
+              <figure><figDesc>fancy "B"</figDesc></figure>Being of sound mind (?) and body, I hereby be-<lb/>queath- - - - -sounds rather pessimistic doesn't it? <lb/>
+              Well, the ice skating season is here again and I <lb/>
+              shall soon be making my yearly attempt to learn to <lb/>
+              ice skate.  Therefore, before I start out, I feel <lb/>
+              a will might be a very good idea.
+           </p>
+           <p>
+              &#160;&#160;&#160;&#160;
+              Ice skating can truly be an art, when it is <lb/>
+              done properly.  It is a demonstration of true <lb/>
+              grace and beauty, however, my skating is not an <lb/>
+              example of either one.
+           </p>
+           <p>
+              &#160;&#160;&#160;&#160;
+              The first time I went ice skating, I started <lb/>
+              out with high hopes; after all, it looks so simple. <lb/>
+              First, I put on my skates- -well that was easy any-<lb/>way- -then I proceeded to attempt to stand up. <lb/>
+              After a fierce battle to get my skates to stop <lb/>
+              wobbling and actually get my balance, I started <lb/>
+              out.  My skates seemed to have a difference of <lb/>
+              opinion concerning the direction I was going and I <lb/>
+              sat down, not very gently, I might add.
+           </p>
+           <figure><figDesc>hand-drawn pencil-shaded girl on ice skates with her hair down. She's wearing a dress.</figDesc></figure>
+           <p>
+              &#160;&#160;&#160;&#160;
+              Why something which looks so simple <lb/>
+              should be so arduous I will never <lb/>
+              understand.  The fight those two little <lb/>
+              skates can put up never ceases to amaze <lb/>
+              me.
+           </p>
+           <p>
+              &#160;&#160;&#160;&#160;
+              My patience is wearing thin in the <lb/>
+              face of so many defeats, so if you see <lb/>
+              me starting out with a pair of ice <lb/>
+              skates and a "do or die" expression in <lb/>
+              my eyes, don't be alarmed, I won't kill <lb/>
+              anyone, at least not intentionally, I <lb/>
+              merely wish to learn to ice skate.
+           </p>
+        </div>
+        
+           <fw>
+              <hi rend="centered">18</hi>
+           </fw>
+          <pb facs="1946_19.jpg"/>
+         <div>
+           <head type="2" rend="centered">THREE GREAT DOCUMENTS IN THEHISTORY OF THE UNITED STATES</head>
+           <space type="double"/>
+           <byline rend="centered">Ruby Hock</byline>
+            <space type="double"/>
+           <p>
+              <figure><figDesc>fancy "T"</figDesc></figure>The Declaration of Independence announced the <lb/>
+              freedom of the Thirteen Colonies from Great <lb/>
+              Britain.  Thomas Jefferson was responsible for the <lb/>
+              drafting of the Declaration of Independence.  Many <lb/>
+              phrases were dropped from his original copy by <lb/>
+              Congress.  One of the most important of these was <lb/>
+              the clause which abolished slavery in the United <lb/>
+              States.  The Southern Congressmen wouldn't let <lb/>
+              this issue pass and it was therefore taken away <lb/>
+              from the document.
+           </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The Congress studied the document on the sec-<lb/>ond, third, and fourth of July.  It was signed late <lb/>
+               in the afternoon on July 4, 1776.  It was read <lb/>
+               publicly on the following Monday.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The document accuses the king of trespassing up-<lb/>on the rights of the people.  It declares all men <lb/>
+               equal and acknowledges the right of everyone to <lb/>
+               life, liberty, and the pursuit of happiness.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The states had now thrown off the British yoke <lb/>
+               and stood without a government to hold them to-<lb/>gether.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The Articles of Confederation was the next step <lb/>
+               in the forming of our great nation.  The same day <lb/>
+               the Continental Congress ordered a committee to <lb/>
+               draft the Declaration of Independence, another <lb/>
+               group was organized to prepare the Articles of <lb/>
+               Confederation.  A month after the Declaration of <lb/>
+               Independence had been signed, the Articles of Con-<lb/>federation were submitted to Congress for approval. <lb/>
+               This document was subjected to debate for sixteen <lb/>
+               months in Congress and even after being adopted by <lb/>
+               <fw>
+               <hi rend="centered">19</hi>
+            </fw>
+            <pb facs="1946_20.jpg"/>
+            <fw>
+               <hi rend="left aligned">20</hi>
+               <hi rend="centered">The Nebraskanette</hi>
+            </fw>
+            <space type="double"/>
+               Congress toward the end of 1777, it was not rati-<lb/>fied until March, 1781, when the war was drawing to <lb/>
+               a close
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Franklin's plan of union of 1775 was not ac-<lb/>cepted by Albany Congress, but some of the most <lb/>
+               important features of the two documents are iden-<lb/>tical.  The Articles of Confederation provided for <lb/>
+               a Congress in which every state was entitled to one <lb/>
+               vote and was represented by a delegation whose <lb/>
+               members were appointed annually as the legislature <lb/>
+               of the state might direct and whose expenses were <lb/>
+               paid by the state and were subject to recall.  In <lb/>
+               other words it was a council of states whose re-<lb/>presentatives has little independence of action.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Extensive powers were granted to the Congress. <lb/>
+               It could enter into treaties, declare war or estab-<lb/>lish peace, coin money and establish post offices. <lb/>
+               But none of these powers could be exercised with-<lb/>out consent of nine states and even if the <lb/>
+               consent was given, there was nothing to make the <lb/>
+               states abide by the decision of Congress.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               No executive was provided for except that Con-<lb/>gress was authorized to appoint such officials as <lb/>
+               it considered necessary to run the government. <lb/>
+               Congress might be called upon to settle disputes <lb/>
+               between states and establish courts for the trial <lb/>
+               of piracy on the high seas.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The plan of government was there but it had no <lb/>
+               force behind it.  Congress might declare war, but <lb/>
+               the states might decline to participate in it; Con-<lb/>gress might enter into treaties, but it could not <lb/>
+               make the states live up to it.  Congress could <lb/>
+               borrow money, but it could not be sure of repaying <lb/>
+               it; and Congress could settle disputes, but it had <lb/>
+               no way of making the parties accept the decision.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The union was ready for a stronger constitution. <lb/>
+               The Constitutional Convention was first called for <lb/>
+               the purpose of amending the Articles of Confedera-<lb/>tion and there were some delegates who stayed with <lb/>
+            <pb facs="1946_21"/>
+            <fw>
+               <hi rend="centered">Three Great Documents</hi>
+               <hi rend="right aligned">21</hi>
+            </fw>
+            <space type="double"/>
+               this purpose throughout the whole convention. There <lb/>
+               were others, however, who realized that the Arti-<lb/>cles of Confederation were not satisfactory no  <choice><sic>nomat-<lb/>ter</sic><corr>no mat-<lb/>ter</corr></choice> how changed they might become.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The Constitutional Convention which met in <lb/>
+               Philadelphia in 1787 was the most important con-<lb/>vention <choice><sic>every</sic><corr>ever</corr></choice> held in the United States.  The Con-<lb/>federation under the Articles of Confederation was <lb/>
+               a failure and if the new nation was to be justi-<lb/>fied in the eyes of the world, it must show itself <lb/>
+               capable of effective union.  This <choice><sic>Conventionand</sic><corr>Convention and</corr></choice> <lb/>
+               its outcome would mark a turning point in the his-<lb/>tory of the world and all men <choice><sic>presentwere</sic><corr>present were</corr></choice> affected <lb/>
+               by the importance of the task before them.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               All sessions of the Convention were held in sec-<lb/>ret.  The representation was by states and the <lb/>
+               average attendance throughout the convention was <lb/>
+               only a little more than thirty.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               George Washington was chosen as presiding offi-<lb/>cer of the Convention.  <choice><sic>Personalityand</sic><corr>Personality and</corr></choice> character <lb/>
+               played a large part in the discussions and debates <lb/>
+               at the Convention.  In such a small group, person-<lb/>ality counted as much as weighty argument.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               James Madison was, next to Washington, the most <lb/>
+               important member of the Virginian delegation.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Gouverneur Morris and Ben Franklin were the im-<lb/>portant delegates from Pennsylvania.  The first <lb/>
+               plan proposed was the Virginia Plan which called <lb/>
+               for a completely new government.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The <choice><sic>principal</sic><corr>principle</corr></choice> features were the <choice><orig>organisation</orig><reg>organization</reg></choice> of <lb/>
+               a legislature of two houses with increased powers, <lb/>
+               the establishment of a separate executive, and the <lb/>
+               creation of an independent judiciary.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               To check this drift toward radical change, New <lb/>
+               Jersey and Connecticut presented the New Jersey <lb/>
+               Plan which was in sharp contrast to the Virginia <lb/>
+               <choice><sic>plan</sic><corr>Plan</corr></choice> and called for only a revision of the Arti-<lb/>cles of Confederation.  After a short discussion,<lb/>
+               however, the Virginia <choice><sic>plan</sic><corr>Plan</corr></choice> won.
+            </p>
+            <pb facs="1946_22.jpg"/>
+            <fw>
+               <hi rend="left aligned">22</hi>
+               <hi rend="centered">The Nebraskanette</hi>
+            </fw>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The dividing line at the Convention soon became <lb/>
+               noticeable.  It was the same one as in the Congress <lb/>
+               of Confederation- - the line between the small states <lb/>
+               and the large states.  On July 16, the great com-<lb/>promise of the Constitution was made.  There were <lb/>
+               to be two houses in Congress.  The lower with re-<lb/>presentation according to the population and the upper <lb/>
+               with each state having two votes.  After this was <lb/>
+               accepted, the Convention proceeded rapidly and on <lb/>
+               much hotter terms.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               A committee of five was named to frame the Con-<lb/>stitution.  This committee made use of the New <lb/>
+               Jersey Plan, the Virginia Plan, the Articles of <lb/>
+               Confederation, and for the rest it depended large-<lb/>ly upon the constitutions of the states.  They <lb/>
+               drew up the draft in ten days.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The one clause referring to Congress in the <lb/>
+               Constitution that is the most important is found <lb/>
+               in Article I, Section 8, part 18, which gives Con-<lb/>gress authority to make any laws it thinks are <lb/>
+               necessary to carry on the government.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The Constitution provided for a Federal Supreme <lb/>
+               Court to settle all matters involving the inter-<lb/>pretation of the law.  The Court assumed a great <lb/>
+               power not actually provided for in the Constitu-<lb/>tion.  This was the authority to declare laws of <lb/>
+               Congress null and void.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The Constitution also provided for the single <lb/>
+               executive.  In making the provision, the Constitu-<lb/>tion created an office which had never before been <lb/>
+               in existence.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The constitution has an effective way of check-<lb/>ing any over ambitious president.  The Congress <lb/>
+               can overrule his veto by a two-thirds vote in both <lb/>
+               houses.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The Constitution was unanimously accepted in <lb/>
+               Congress and sent to the states for their approval. <lb/>
+               The Constitution had to have nine states ratify it <lb/>
+               before it could go into effect.  Delaware was the <lb/>
+            <pb facs="1946_23.jpg"/>
+            <fw>
+               <hi rend="centered">Who Were the Greeks?</hi>
+               <hi rend="right aligned">23</hi>
+            </fw>
+            <space type="double"/>
+               first to ratify the Constitution on December 7, <lb/>
+               1787.  The others followed and the Constitution <lb/>
+               went into effect on June 21, 1789.  The other four <lb/>
+               states accepted the Constitution later and on May <lb/>
+               21, 1790, all Thirteen Colonies belonged to the <lb/>
+               union.
+            </p>
+           <p>
+              &#160;&#160;&#160;&#160;
+              A great experiment was made in establishing a <lb/>
+              nation under the <choice><sic>principal</sic><corr>principle</corr></choice> of self-government, and <lb/>
+              the whole world anxiously awaited its success or <lb/>
+              failure.
+           </p>
+         </div>
+         <space type="double"/>
+         <div>
+            <head type="2" rend="centered">WHO WERE THE GREEKS?</head>
+            <space type="double"/>
+            <byline rend="centered">Leslie Chisholm</byline>
+            <space type="double"/>
+            <p>
+               <figure><figDesc>fancy "W"</figDesc></figure>We don't know more about the origin of the Greek <lb/>
+               people than we do about the founders of Egypt or <lb/>
+               Babylon.  Our knowledge of them begins about the <lb/>
+               time when the Assyrians had conquered most of west-<lb/>ern Asia.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               For 200 years after the time of these Oriental <lb/>
+               monarchs, Greek life and thought blossomed out at <lb/>
+               their best.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The ancestors of the Greeks of historic times <lb/>
+               came south from the valley of the Danube, or pos-<lb/>sibly from the region north of the Black Sea.  The <lb/>
+               Greeks later called themselves Hellenes and their <lb/>
+               land Hellans.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The invaders didn't come all at once but in <lb/>
+               waves about two hundred years apart.  There were <lb/>
+               four divisions of them, the Achaeans, the Aeolians, <lb/>
+               Ionians, and Dorians.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               In about 1100 B. C. a big wave of Dorians came <lb/>
+               into the Peloponnesus, the southern peninsula of <lb/>
+               Greece.  They drove out the people already living <lb/>
+               there.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               You would have found among the people of ancient <lb/>
+               Greece every trait and quality that human beings <lb/>
+               ever possessed.  The Greeks were very reasonable. <lb/>
+            <pb facs="1946_24.jpg"/>
+            <fw>
+               <hi rend="left aligned">24</hi>
+               <hi rend="centered">The Nebraskanette</hi>
+            </fw>
+            <space type="double"/>
+               They took an interest in business, in commerce, in <lb/>
+               art, in government, in philosophy, and in religion. <lb/>
+               They were a free-minded people and didn't feel <lb/>
+               bound by any tradition or habit.  These Greeks <lb/>
+               were also great builders.  Some of the more famous <lb/>
+               buildings that are still standing are "the Porch <lb/>
+               of the Maidens" and "the Theseum" at Athens.  On <lb/>
+               these buildings we noticed three types of columns. <lb/>
+               These columns were the Doric, Ionic, and the Cor-<lb/>inthian.
+            </p>
+            <p rend="justified">&#160;&#160;&#160;&#160;The Doric column was the<lb/>
+                        simplest of the three columns. <lb/>
+                        It was made more for heavy use <lb/>
+                        then were the Ionic and Corin-<lb/>thian columns.  The Doric col-<lb/>umn also has no formal base <lb/>
+                        and a very simple capital. </p>
+            <p rend="justified">&#160;&#160;&#160;&#160;The Ionic capital had de-<lb/>signs of scrolls on it.  This <lb/>
+                        column was more slender than the Doric column.</p>
+            <figure><figDesc>hand-drawn representation of each of the three columns (labeled), starting with Doric, then Ionic, then Corinthian</figDesc></figure>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The most ornate of the three columns was the <lb/>
+               Corinthian, which was used more by the Romans than <lb/>
+               the Greeks.  It is said that the artist that made <lb/>
+               the design got the idea when he saw a basket set <lb/>
+               on the leaves on an acanthus plant.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The Greeks were very superstitious.  They <lb/>
+               thought that all the gods lived on Mt. Olympus but <lb/>
+               no Greek had seen, or even thought he had seen, a <lb/>
+               god there.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               They had many gods.  Some of the Greek gods you <lb/>
+               are familiar with are <choice><sic>Jupiter</sic><corr>Zeus</corr></choice>, the king of gods; <lb/>
+               <choice><sic>Neptune</sic><corr>Poseidon</corr></choice>, god of the sea; <choice><sic>Mercury</sic><corr>Hermes</corr></choice>, messenger of the <lb/>
+               gods<ptr target="#gg"/>, and many more.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The Greeks put human weakness and vices as well <lb/>
+               as good qualities into their gods.  These gods <lb/>
+               could be jealous, deceitful, and cruel.  They were <lb/>
+               much like normal people.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The Greeks could easily be led by a smooth <lb/>
+               talker and they were always ready to give some <lb/>
+                        <pb facs="1946_25.jpg"/>
+            <fw>
+               <hi rend="centered">Buses</hi>
+               <hi rend="right aligned">25</hi>
+            </fw>
+            <space type="double"/>
+               sympathy. A hero one day was a villain the next <lb/>
+               in Greece.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Greek life from around 1200 to 800 B. B. is <lb/>
+               pictured in two poems written by a blind man named <lb/>
+               Homer.  These two poems were the <hi rend="underline">Iliad</hi> and the <lb/>
+               <hi rend="underline">Odyssey</hi>.  Every person of culture in Greece knew <lb/>
+               these poems.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               These poems tell about the latter part of the <lb/>
+               war between the Greeks and the people of Troy <lb/>
+               in Asia Minor (about 1194 B. B. to 1184 B. C.), and <lb/>
+               of the experience of Odysseus on his return home <lb/>
+               after Troy had been captured.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The people of ancient Greece were mostly farm-<lb/>ers, fishermen, or traders on the sea.  Although <lb/>
+               they made their own weapons and armor for war, <lb/>
+               there were a few skilled tradesmen among them.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               They thought that they were all descended from <lb/>
+               a common ancestor, whom they called Hellen.  All <lb/>
+               who weren't Greeks were "Barbarians."
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Some of the Greeks organized in leagues, or am-<lb/>phistyonics.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Each city was jealous of each other because it <lb/>
+               was afraid the other might get more powerful, so <lb/>
+               they had many wars.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               One of the greatest of all unifying factors was <lb/>
+               the Olympic Games.  These were held every year at <lb/>
+               Mt. Olympus.  At these games they had many contests <lb/>
+               of physical skills.  The <choice><sic>visitor</sic><corr>victor</corr></choice> of these contests <lb/>
+               was given a head band of olive leaves.
+            </p>
+         </div>
+         <space type="triple"/>
+         <div>
+            <head type="2" rend="centered">BUSES- -TO BE SQUASHED OR NOT TO BE SQUASHED</head>
+            <space type="double"/>
+            <byline rend="centered">Shirley Will</byline>
+            <space type="triple"/>
+            <p>
+               <figure><figDesc>fancy "U"</figDesc></figure>Unfortunately I do not live at the end of the <lb/>
+               bus line; and by the time I am ready to make my <lb/>
+               appearance on the bus, it is fairly crowded.  But <lb/>
+               <pb facs="1946_26.jpg"/>
+               <fw>
+                  <hi rend="left aligned">26</hi>
+                  <hi rend="centered">The Nebraskanette</hi>
+               </fw>
+               <space type="triple"/>
+               wait, we haven't picked up all the other passen-<lb/>gers.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               I wish the bus driver would stop telling us to <lb/>
+               move to the back of the car.  He doesn't know that <lb/>
+               some of the passengers are halfway out of the back <lb/>
+               of the bus.  I wish this ape in front of me would <lb/>
+               get off my foot.  Maybe if I drop one of my books <lb/>
+               he will pick it up for me and then kindly remove <lb/>
+               his big clodhoppers.  Well, here goes.  "Oh, thank <lb/>
+               you ever so much."  Well, now I can uncurl my toes. <lb/>
+               Boy what a relief!
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               I wonder who's pushing up in front.  I wish <lb/>
+               they would stop.  Ooh, you big stiff.  "No, you <lb/>
+               didn't hurt me.  Thanks, I'm quite all right and I <lb/>
+               think I can manage to pick myself up."
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               I'd better grab the closest object there is, <lb/>
+               because the bus is going to stop.  "Just a minute, <lb/>
+               driver."  Gee whiz, I feel like a fool.  I should <lb/>
+               have known better than to lean against the door, <lb/>
+               and fall out as the bus came to a stop and the <lb/>
+               doors flew open.. Well, anyway, the people got a <lb/>
+               good laugh out of it and I, well..........
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Just three more blocks and I'll be out of this <lb/>
+               sardine can.  This time I'll make sure nothing <lb/>
+               happens when the bus stops.  Oh, golly, where's <lb/>
+               my shoe?  I know I put both of them on this morn-<lb/>ing.  Jeepers, I can't go to school with just one <lb/>
+               shoe.  Why, I'll be the laughing stock of the <lb/>
+               whole school.  I must have lost it when we had <lb/>
+               that awful lurch two blocks back.  Ah, there it is <lb/>
+               under that seat.  But I can't crawl under the seat <lb/>
+               to get it because it would look ridiculous.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               "Yes, ah, that's my shoe; thank you."
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               At that moment I wished the ground would open <lb/>
+               up and swallow me.  Saved!  The bus has stopped <lb/>
+               and here's where I get off.  I still think that <lb/>
+               some of the most embarrassing moments <hi rend="underline">can</hi> and <hi rend="underline">do</hi> <lb/>
+               take place on buses.
+            </p>
+         </div>
+         <pb facs="1946_27.jpg"/>
+         <div>
+            <space type="quadruple"/>
+            <head type="2" rend="centered">MACBETH BY FAIRES<ptr target="#macbeth"/></head>
+                 <figure><figDesc>hand-drawn picture of Bugs Bunny dressed as a knight and holding a carrot. It spans almost the entire height of the page.</figDesc></figure>
+                   <p>
+                      <figure><figDesc>fancy "Y"</figDesc></figure>You are about to read <lb/>
+                      a play.  After you have <lb/>
+                      read it, you will wonder <lb/>
+                      why you did, but never-<lb/>theless, you are about to <lb/>
+                      read it.
+                   </p>
+                   <p>
+                      &#160;&#160;&#160;&#160;
+                      There are two Macbeths. <lb/>
+                      Macbeth by Shakespeare, <lb/>
+                      and Macbeth by Faires.  If <lb/>
+                      you are fool enough to <lb/>
+                      think you are about to <lb/>
+                      read the better of the <lb/>
+                      two, or anything even <lb/>
+                      closely resembled to the <lb/>
+                      better of the two, then <lb/>
+                      either you're crazy, or I <lb/>
+                      am.  You don't know it <lb/>
+                      now, but in the following <lb/>
+                      lines what Faires has done <lb/>
+                      to Shakespeare, shouldn't <lb/>
+                      happen to Smoe and Kilroy <lb/>
+                      put together.
+                   </p>
+                   <p>
+                      &#160;&#160;&#160;&#160;
+                      Now, if you still want <lb/>
+                      to read this thing, you <lb/>
+                      must do so at your own <lb/>
+                      risk, as we are not re-<lb/>sponsible in any way for <lb/>
+                      anything anyone might do, <lb/>
+                      after the smell has <lb/>
+                      drifted away.  Remember, <lb/>
+                      the management is not re-<lb/>sponsible!!!
+                   </p>
+            <fw>
+               <hi rend="centered">27</hi>
+            </fw>
+            <pb facs="1946_28.jpg"/>
+            <fw>
+               <hi rend="left aligned">28</hi>
+               <hi rend="centered">The Nebraskanette</hi>
+            </fw>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Any faint possible resemblance between this and <lb/>
+               anything Mr. S. wrote is purely coincidental.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The author must also reserve the right to have <lb/>
+               a twenty-minute head start in any direction, after <lb/>
+               the reader has finished. . . .
+            </p>
+            <space type="double"/>
+         </div>
+            <div>
+               <head type="2" rend="centered">A Scene from MACBETH</head>
+               <byline>by F. Faires (with a little help from Mr. S.)</byline>
+               <space type="double"/>
+               <p>
+                   <stage>&#160;&#160;&#160;&#160;
+                      The scene is Macbeth's Castle, a very modern <lb/>
+                      castle, as castles go.  Over the door is a bright <lb/>
+                      red neon sign which flashes off and on and reads, <lb/>
+                      "Macbeth's Place, Deliveries in the Rear."  Mac-<lb/>beth is one of King Duncan's best soldiers, and gets <lb/>
+                      paid very well; as a matter of fact, he has more <lb/>
+                      money than Carter's have Little Liver Pills.</stage>
+               </p>
+               <space type="double"/>
+               <p>
+                  <stage>&#160;&#160;&#160;&#160;
+                     As the scene opens, Duncan drives up in front <lb/>
+                     of the castle in a sixteen cylinder Buick.  Duncan <lb/>
+                     is tall, dark and has a handsome bank roll.  He is <lb/>
+                     about forty-five, but is still an obvious, up and <lb/>
+                     atom wolf.  He climbs out of the car, and crosses <lb/>
+                     an electric eye beam, which automatically lowers <lb/>
+                     the draw bridge.  He then crosses to the court yard <lb/>
+                     where he finds Lady Macbeth sipping pink lemonade, <lb/>
+                     and drooling over a picture of Van Johnson........
+                  </stage></p>
+               <sp><speaker>Duncan: </speaker><stage>(very sly) </stage><p>Hello, stranger, long time <lb/>no see!</p></sp>
+               <sp><speaker>Lady Macbeth: </speaker><stage>(even slyer) </stage><p>I thought it was about <lb/>time for you to drop in, you wolf.</p></sp>
+               <sp><speaker>Duncan: </speaker><p>I am not a wolf!  I'm just an enthusiastic  <lb/>kitten.</p></sp>
+               <stage>(Enter Ross)</stage>
+               <space type="double"/>
+               <sp><speaker>Ross: </speaker><p>Did you ring for me?</p></sp>
+               <sp><speaker>Lady Macbeth: </speaker><p>Well, that bell didn't toll for <choice><sic>Pino-<lb/>cico</sic><corr>Pino-<lb/>cchio</corr></choice>.  Here, lock my Van Johnson picture in the <lb/>safe.</p></sp><space type="tenSpaces"/><stage>(Exit Ross)</stage>
+               <pb facs="1946_29.jpg"/>
+               <fw>
+                  <hi rend="centered">Macbeth</hi>
+                  <hi rend="right aligned">29</hi>
+               </fw>
+               <space type="double"/>
+               <sp><speaker>Duncan: </speaker><p>It's so lonesome being king all by myself, <lb/>why don't you jump in your airplane and come up <lb/>and see me sometime?</p></sp>
+               <sp><speaker>Lady Macbeth: </speaker><p>What?  And leave Macbeth here alone?</p></sp>
+               <sp><speaker>Duncan: </speaker><p>Oh, what do you care for that drip???</p></sp>
+               <sp><speaker>Lady Macbeth: </speaker><p>Be quiet Duncan.  After all he's <lb/>one of the best husbands I ever had.</p></sp>
+               <p><stage>(Enter Macbeth)</stage></p>
+               <sp><speaker>Macbeth: </speaker><p>So this is what goes on when my back is <lb/>turned.  Duncan, I told you not to come here!</p></sp>
+               <sp><speaker>Duncan: </speaker><p>I can come here if I want!  After all, I'm  <lb/>still king.</p></sp>
+               <sp><speaker>Macbeth: </speaker><p>That settles it!  I'm going home to father!</p></sp>
+               <sp><speaker>Duncan: </speaker><p>But you can't do that, I need you in the  <lb/>army.</p></sp>
+               <sp><speaker>Macbeth: </speaker><p>I can if I want!</p></sp>
+               <sp><speaker>Duncan: </speaker><p>Over my dead body!</p></sp>
+               <p><stage>(Macbeth takes out a gun and shoots Duncan.)</stage></p>
+               <sp><speaker>Duncan: </speaker><stage>(dying) </stage><p>All right, go home to your old <lb/>father, see if I care!</p><stage> (dies)</stage></sp>
+               <sp><speaker>Lady Macbeth: </speaker><p>Now just look what you've done.  He  <lb/>flopped over on my very best rose bush.</p></sp>
+               <sp><speaker>Macbeth: </speaker><p>I'm sorry, remind me to be more careful <lb/>next time.</p></sp>
+               <sp><speaker>Lady Macbeth: </speaker><p>Say, do you know that this leaves <lb/>the way open for you to be king???</p></sp>
+               <sp><speaker>Macbeth: </speaker><p>I hadn't thought of that.  Being king <lb/>would be nice.</p></sp>
+               <sp><speaker>Lady Macbeth: </speaker><p>Who knows, if we keep this up, we <lb/>might even move to Chicago.  You could hold <lb/>people up, and I could shop lift.</p></sp>
+               <p><stage>(Enter Ross)</stage></p>
+               <sp><speaker>Ross: </speaker><p>Banquo is here.</p></sp>
+               <p><stage>(Enter Banquo and looks at the body.)</stage></p>
+               <sp><speaker>Banquo: </speaker><p>My, my!  The king is murdered, what a pity!  <lb/>That reminds me, read any good books lately????</p></sp>
+               <sp><speaker>Ross: </speaker><p>Never mind.  Who's going to tell Malcom <lb/>about this????</p></sp>
+               <sp><speaker>Macbeth: </speaker><p>Oh dear.  I forgot about him.  I don't <lb/>
+               <pb facs="1946_30.jpg"/>
+         <fw>
+            <hi rend="left aligned">30</hi>
+            <hi rend="centered">The Nebraskanette</hi>
+         </fw>
+         <space type="double"/>
+               suppose he'll like this very well, will he?????</p></sp>
+               <sp><speaker>Lady Macbeth: </speaker><p>I don't suppose.</p></sp>
+               <sp><speaker>Banquo: </speaker><p>Oh, I just love gossip!  I'll run and tell him</p></sp><space type="tenSpaces"/><stage>(Exit Banquo)</stage>
+               <sp><speaker>Macbeth: </speaker><p>Now what will I do???</p></sp>
+               <sp><speaker>Lady Macbeth: </speaker><p>We're in a jam!</p></sp>
+               <sp><speaker>Ross: </speaker><p>There's the door bell.  I'll answer it.</p></sp>
+               <p><stage>(Answers door.)</stage></p>
+               <sp><speaker>Macbeth: </speaker><p>Well, who is it???</p></sp>
+               <sp><speaker>Ross: </speaker><p>It's Malcom and.......</p></sp>
+               <sp><speaker>Macbeth: </speaker><p>My, he got here fast didn't he????</p></sp>
+               <sp><speaker>Lady Macbeth: </speaker><p>Oh they can do anything like that in these plays.</p></sp>
+               <sp><speaker>Ross: </speaker><p>He says he wants to cut your head off!</p></sp>
+               <sp><speaker>Macbeth: </speaker><p>Well, tell him to come right in...WHAT?? <lb/>My head???  Oh dear, oh dear, what will I do? <lb/>Hide me someone!</p></sp>
+               <sp><speaker>Lady Macbeth: </speaker><p>I think I'll kill myself!</p></sp>
+               <sp><speaker>Ross: </speaker><p>Hold everything!  A letter just came for <lb/>Lady Macbeth.</p></sp>
+               <sp><speaker>Lady Macbeth: </speaker><stage>(read letter)</stage><p>Quick!  Pack your <lb/>suitcase and we'll slip out the back way.  "We'll <lb/>have to hurry to catch the next train!</p></sp>
+               <sp><speaker>Macbeth: </speaker><p>But where can we go????</p></sp>
+               <sp><speaker>Lady Macbeth: </speaker><p>To Hollywood.  M.G.M. wants you to <lb/>play stand-in for Boris Karloff.</p></sp>
+               <sp><speaker>All: </speaker><p>Success at last!  Crime pays!</p></sp>
+               <p><tech>(Curtain)</tech></p> 
+         </div>
+        <space type="triple"/>
+         <div>
+            <head type="2" rend="centered">OLD FRIENDS OF THE FAMILY</head>
+            <space type="double"/>
+            <byline rend="centered">Jenibel Briggs</byline>
+            <space type="double"/>
+            <p>
+               <figure><figDesc>fancy "T"</figDesc></figure>They ought to be put behind bars.  They ought <lb/>
+               to be taken before a court and convicted.  These <lb/>
+               people who make unexpected visits are real crimi-<lb/>nals!  They burst in when you don't want to see <lb/>
+               anyone, especially not them.  It would seem in<corr>-</corr> <lb/>
+               <pb facs="1946_31.jpg"/>
+               <fw>
+                  <hi rend="centered">Old Friends of the Family</hi>
+                  <hi rend="right aligned">31</hi>
+               </fw>
+               <space type="double"/>
+               credible if they came when a person had the time <lb/>
+               and inclination to entertain them.
+            </p>
+            <p>
+               <space rend="tab"/>
+               It seems to be a joyous time for everyone but <lb/>
+               me when these old friends pop in.  Everyone else <lb/>
+               appears to enjoy himself.
+            </p>
+            <p>
+               <space rend="tab"/>
+               Seldom do they have any important purpose in <lb/>
+               coming, but regardless, I have to appear extremely <lb/>
+               hospitable when I am introduced.  They always say, <lb/>
+               "My dear," or "Why, the last time I saw you, you <lb/>
+               were only this high."  These platitudes revolt me <lb/>
+               no end.  I can't remember whether I had ever seen <lb/>
+               them or not.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               When they arrive, they usually let it be known <lb/>
+               that they can stay only fifteen or twenty minutes, <lb/>
+               but these fifteen or twenty minutes develop into <lb/>
+               hours.  My mother urges them to stay for dinner, <lb/>
+               and they accept her invitation very willingly.  My <lb/>
+               heart sinks into my shoes when I have to be the <lb/>
+               "aide de camp"<ptr target="aide"/> in the kitchen, which ruins my <lb/>
+               evening plans to go to the basketball game.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               My heart drops still deeper when Mother invites <lb/>
+               them to stay all night and take the noon train the <lb/>
+               following day.  The last straw is their acceptance <lb/>
+               to stay.  My room is transformed immediately into <lb/>
+               a guest room and I spend the night on the daven-<lb/>port.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               By morning, I have a still neck and an extremely <lb/>
+               wicked attitude toward old friends of the family.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               By the time the breakfast dishes are done, I <lb/>
+               start trying to get our guests off so there will <lb/>
+               be no danger of their missing the noon train.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The goodbyes are long and sorrowful affairs for <lb/>
+               everyone except me.  As I watch, beaming secretly <lb/>
+               to myself, I notice a cobweb forming in the door-<lb/>way.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Finally, they walk down the sidewalk and I give <lb/>
+               a sigh of relief for I am always happy when <lb/>
+               people leave after such visitations.  Such people <lb/>
+               need to do more reading in etiquette books.
+            </p>
+         </div>
+         <pb facs="1946_32.jpg"/>
+         <div>
+            <space type="triple"/>
+            <head type="2" rend="centered">HISTORY OF ALGEBRA</head>
+            <space type="double"/>
+            <byline rend="centered">Audrey Flood</byline>
+            <space type="triple"/>
+            <p>
+               <figure><figDesc>fancy "H"</figDesc></figure>History has two definitions.  One, it is <lb/>
+               everything that happened in the past; the second, <lb/>
+               it is a written record of special things which <lb/>
+               happened in the past.  As an algebra student, I <lb/>
+               shall tell you what I know about the history of <lb/>
+               algebra in each of these ways.
+            </p>
+            <figure><figDesc>hand-drawn picture of an Egyptian man with a tablet and question marks above his head. The tablet has equations written on it. The figure is centered mostly in the middle of the second paragraph, centered on the page.</figDesc></figure>
+            <p>
+               &#160;&#160;&#160;&#160;
+               First, there is everything <lb/>
+               that happened to algebra in <lb/>
+               the past.  Al-gebra is said <lb/>
+               to have been started in <lb/>
+               Egypt, as many geometric and <lb/>
+               algebraic prog-ressions were <lb/>
+               found in their ancient papers. <lb/>
+               In Greece, al-gebra was writ-<lb/>ten in geomet-ric forms, and <lb/>
+               verbal problems which are the <lb/>
+               basis of those used in our <lb/>
+               books today, were worked. <lb/>
+               Diophantus com-piled the alge-<lb/>braic knowledge of the Greeks <lb/>
+               into one volume.  In this book, he made a great <lb/>
+               contribution by using symbols for unknown quantit-<lb/>ies and powers.  He spent most of his time study-<lb/>ing problems in which the solution was indetermin-<lb/>ate.  Hypatia, the first known woman <choice><sic>mathemetician</sic><corr>mathematician</corr></choice> <lb/>
+               wrote many commentaries on the works of Diophantus <lb/>
+               and she followed his theories.  In India, the <lb/>
+               Hindus were interested in series, and linear and <lb/>
+               quadratic equations.  In the twelfth century, <lb/>
+               Europe became interested in algebra and two men <lb/>
+               were brought to Frederick II, where they had a <lb/>
+               <fw>
+                  <hi rend="centered">32</hi>
+               </fw>
+               <pb facs="1946_33.jpg"/>
+               <fw>
+                  <hi rend="centered">Perfume and the Ladies (and the Men)</hi>
+                  <hi rend="right aligned">33</hi>
+               </fw>
+               <space type="double"/>
+               mathematical tournament.  In this tournament, <lb/>
+               Fibonacci added to his prestige as a genius in <lb/>
+               algebraic analysis.  Gradually, algebra spread <lb/>
+               throughout the world as a common study of <lb/>
+               mathematics.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Second, the written record of the common pu-<lb/>pil's algebra that has happened in the past is:<lb/>
+            </p>
+            <p rend="centered">77</p>
+               <p rend="centered">80</p>
+               <p rend="centered">70</p>
+               <p rend="centered">Hurrah!  I passed!!</p>
+         </div>
+         <space type="triple"/>
+         <div>
+            <head type="2" rend="centered">PERFUME AND THE LADIES (AND THE MEN)</head>
+            <space type="triple"/>
+            <byline rend="centered">- -"Rog" Phipps</byline>
+            <space type="triple"/>
+            <p>
+               <figure><figDesc>fancy "P"</figDesc></figure>Perfume, according to Webster, is "a substance <lb/>
+               that emits an agreeable odor."  It is generally <lb/>
+               known that this substance which emits such an <lb/>
+               agreeable odor is usually a young lady wearing some <lb/>
+               one of over one hundred thousand different kinds <lb/>
+               of perfumes.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The purpose of perfume is to allure.  (That's <lb/>
+               what I hear, anyway.)  Many a lass has found per-<lb/>fume to be her answer in enticing a man.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               There are over one hundred thousand different <lb/>
+               kinds of perfumes.  They can be roughly classified <lb/>
+               into two groups:  the potent and the non-potent. <lb/>
+               The average young lady has several kinds of non-<lb/>potent perfumes sitting around on the top of her <lb/>
+               dressing table, but now and then we run across <lb/>
+               someone who is wearing a potent perfume.  The <lb/>
+               effect is flooring.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               What is a woman without perfume?  Perfume is the <lb/>
+               whipped cream on her ginger-bread, the a-la on her <lb/>
+               <pb facs="1946_34.jpg"/>
+               <fw>
+                  <hi rend="left aligned">34</hi>
+                  <hi rend="centered">The Nebraskanette</hi>
+               </fw>
+               <space type="double"/>
+               a-la-mode, the cherry on her sundae, the sugar in <lb/>
+               her coffee, and the butter on her toast.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Have you read the latest perfume ads?  If not, <lb/>
+               you have no idea what perfume means to modern <lb/>
+               misses.  Perfume is....."the lilting, lingering, <lb/>
+               loveliness....for you alone!  Elusive....provoca-<lb/>tive....tantalizingly unforgettable, intriguing as <lb/>
+               the lengthening shadows of twilight,....stirring as <lb/>
+               that first star-canopied moment alone!  The frag-<lb/>rance that weaves a subtle spell and softly whis-<lb/>pers 'you'."
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Perfume, the magazine ads try to imply, can <lb/>
+               seemingly transform a woman into almost anything. <lb/>
+               She is either "a heaven-sent angel," "a white <lb/>
+               flame," "devastating," or a "beau catcher."  These <lb/>
+               perfumes are supposed to have quite an effect on <lb/>
+               the men, as their names imply.  Actually, I don't <lb/>
+               think men pay the least attention to the perfume <lb/>
+               women wear unless it is some of the more potent <lb/>
+               type.  This potent perfume bears a striking resem-<lb/>blance to any delousing fluid.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               If the modern maiden wishes to inspire jealousy, <lb/>
+               all she does is don some "Jealousy" perfume.  If <lb/>
+               the young lady wants to be devasting, all she has <lb/>
+               to do is put a drop of perfume behind each ear and <lb/>
+               (as the perfume ads claim) she will become as dev-<lb/>astating as her hat.  And oh!  what a hat!
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               We of the masculine sex do not realize what per-<lb/>fume means to the ladies.  As some perfume ads put <lb/>
+               it:  "a perfume made of all the things you love," <lb/>
+               or "Adventure, mixed with mystery, gay<ptr target="#gay"/> and lilting <lb/>
+               as ballet music."
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Why don't girls wear perfumes called "caramel," <lb/>
+               "butterscotch," "apple pie," or "chocolate," in-<lb/>stead of the fumes called "Indifference," or "An-<lb/>nihilation"?
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Remember boys, as Kipling once said it, "The <lb/>
+               female of the species is more deadly than the <lb/>
+               male!"
+            </p>
+         </div>
+         <pb facs="1946_35.jpg"/>
+         <div>
+            <head type="2" rend="centered">ONE TOO MANY SISTERS</head>
+            <space type="double"/>
+            <byline rend="centered">Roberta Flory</byline>
+            <space type="triple"/>
+            <figure><figDesc>hand-drawn pictures of an older girl looking angrily at a yonger girl (presumedly her sister) reading a diary. There is a lamp next to them at the table that the younger girl is sitting at. The picture is left aligned in primarily the first paragraph.</figDesc></figure>
+            <p>
+               <figure><figDesc>fancy "L"</figDesc></figure>Little brothers- -ugh! <lb/>
+               - -many times I have heard <lb/>
+               them spoken of in just <lb/>
+               that way- -brothers!  Some <lb/>
+               even hold contempt for <lb/>
+               them in their voices- - <lb/>
+               brothers!  Well, what <lb/>
+               about sisters?  Doesn't <lb/>
+               anyone ever have an onery <lb/>
+               sister, a mean little <lb/>
+               sister?  Well, let me tell <lb/>
+               you about mine.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               My sister's name is <lb/>
+               Georgia Ann and she is 13 <lb/>
+               years old.  She is as tall <lb/>
+               as I am and probably will turn out to be a taller <lb/>
+               person.  I might say she was tall for her age, but <lb/>
+               compared to some of the young giants in her grade, <lb/>
+               she is a "pip-squeak."
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Her disposition is variable.  The only way I <lb/>
+               can describe it is by quoting a nursery rhyme. <lb/>
+               "When she is good, she is very, very good...when <lb/>
+               she is bad, she is horrid."<ptr target="#longfellow"/>  As I write more you <lb/>
+               will get the general idea.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The biggest problem in our life is the problem <lb/>
+               of sharing.  Now that she is "growing up," she <lb/>
+               thinks she can get certain compensations, things <lb/>
+               like getting out of the housework that she never <lb/>
+               really helped with anyway- - -.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               I'm going to ask a question.  Would I have to <lb/>
+               share my bedroom if she <choice><sic>wore</sic><corr>were</corr></choice> a brother?  Now I'll <lb/>
+               <fw>
+                  <hi rend="centered">35</hi>
+               </fw>
+               <pb facs="1946_36.jpg"/>
+               <fw>
+                  <hi rend="left aligned">36</hi>
+                  <hi rend="centered">The Nebraskanette</hi>
+               </fw>
+               <space type="triple"/>
+               answer it.  Most certainly not!!  If she were a <lb/>
+               brother I would have a room all by myself.  Oh, <lb/>
+               happy day, what a glorious thought.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Connected with this thought is another- - - I <lb/>
+               would so much like having a closet of my own. <lb/>
+               Really, I would.  It would be worlds simpler but, <lb/>
+               no, she's a sister and sisters share.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               My bicycle is a much disputed matter.  When it <lb/>
+               was new, it was given to me.  Georgia was small <lb/>
+               then but in the last few years she has learned how <lb/>
+               to ride.  Now the bicycle is jointly owned and <lb/>
+               mostly by the little "joint."  (She thinks.)
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               She is growing up; that I can't deny, but she <lb/>
+               just popped up.  A year ago she couldn't being to <lb/>
+               wear my clothes.  Now they fit her better than they <lb/>
+               do me.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               It had been a hard and fast rule at our home <lb/>
+               that the girls, meaning Georgia and I, should not <lb/>
+               wear each other's clothes.  Of course, that's all <lb/>
+               changed; now the rule is if you see anything you <lb/>
+               like, grab it and run!  No, it's really not quite <lb/>
+               so bad.  Only once in a while does she wear my <lb/>
+               stuff and then only with my permission.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Can someone tell me what is the proper time <lb/>
+               for a thirteen-year-old to go to bed?  Georgia's <lb/>
+               motto is, "Don't go to bed until you just can't <lb/>
+               stand up any more and then if possibly hold out <lb/>
+               just a little bit longer."  Then, when she goes to <lb/>
+               bed, she wants me to follow directly.  Well, some-<lb/>times I'm willing, but other times it's almost im-<lb/>possible.  Of course, that's my story and we won't <lb/>
+               go into that.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Who does the dishes?  A problem in every home <lb/>
+               is who does the dishes?  My sister argues, "Let <lb/>
+               Bobby do them; she's older and the older ones help <lb/>
+               more."  My argument is "Let Georgia help; she's <lb/>
+               younger and should have to do things like that." <lb/>
+               Oh well, you can't win, so why try?
+            </p>
+            <pb facs="1946_37.jpg"/>
+            <fw>
+               <hi rend="centered">I'll Be Home for Christmas</hi>
+               <hi rend="right aligned">37</hi>
+            </fw>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               I have a suggestion to make to the Journal <lb/>
+               company.  Why don't they send two papers to us in-<lb/>stead of one?  It would simplify life so much. <lb/>
+               When we hear the paper hit the porch, we start in <lb/>
+               our fifty-yard dash.  The lucky one gets it, the <lb/>
+               other one usually gets a banged head or a skinned <lb/>
+               knee.  <corr>"</corr>Why shouldn't I get the evening paper first; <lb/>
+               I'm the younger."  As I said before, you can't win.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               But, all in all, everything included, she's <lb/>
+               not so bad.  Sisters, in general, all have their <lb/>
+               good points.  Their companionship is something to <lb/>
+               treasure.  Their help with the work is good, when <lb/>
+               you can get it.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               My sister's personality is developing more <lb/>
+               every day.  She is getting a fine sense of humor. <lb/>
+               It's only once in a while that something gets <lb/>
+               under her skin.  As she is getting older, she is <lb/>
+               getting more sensible and dependable.  That is <lb/>
+               something fine to see.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               I don't want anyone to get me wrong.  I love <lb/>
+               my sister and I wouldn't change her for a million <lb/>
+               like her, but sometimes she gets under my skin and <lb/>
+               this is the only way I can think of to get rid of <lb/>
+               it.  Oh well, that's life.
+            </p>
+         </div>
+         <space type="triple"/>
+         <div>
+            <head type="2" rend="centered">I'LL BE HOME FOR CHRISTMAS</head>
+            <space type="double"/>
+            <byline rend="centered">Ardeen Miller</byline>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               "I'll be home for Christmas," the song sand <lb/>
+               from under Diane's fingers as she played the piano. <lb/>
+               There was a large tree at one end of the room <lb/>
+               beautifully decorated with colored balls, tinsel, <lb/>
+               Santa Claus, angels, and a huge silver star at the <lb/>
+               top.  Near by was the fire-place with holly and <lb/>
+               candles on it.  This room, the snow falling lazily <lb/>
+               outside, the fire in the fire-place brought back <lb/>
+               memories- -memories of her brother Cal.
+            </p>
+            <pb facs="1946_38.jpg"/>
+            <fw>
+               <hi rend="left aligned">38</hi>
+               <hi rend="centered">The Nebraskanette</hi>
+            </fw>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The last time Cal was in this room was three <lb/>
+               years ago.  He sang songs, he joked, and he popped <lb/>
+               popcorn but- -Cal would never do those things again. <lb/>
+               Cal was dead, killed at Salerno.<ptr target="#salerno"/>.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Diane remembered the times Cal played football, <lb/>
+               even got his nose broken once.  Gosh, he looked <lb/>
+               funny with that big bandage on his face.  There <lb/>
+               was the time he swam at Crow Lake and got sun-<lb/>burned.  He looked like a beet!  Cal sang in the <lb/>
+               Church choir; he was there every Sunday.  Diane <lb/>
+               thought of the many girls in Cal's life.  Marge, <lb/>
+               Georgia, Sally, Shirley, and the last one was <lb/>
+               Carol; he had loved them all.  He loved this room, <lb/>
+               he loved Christmas, he loved everything it stood <lb/>
+               for, the birth of Jesus, the manger, and the glory <lb/>
+               of giving gifts.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Cal will never be here for Christmas again; <lb/>
+               he'll never sit down to a huge dinner with all the <lb/>
+               trimmings, of turkey, potatoes and gravy, cranber-<lb/>ries, jellies, salads, nuts, candies, and mince <lb/>
+               pie.  Diane thought of the family sitting down to <lb/>
+               the table with that missing face.  Cal always sat <lb/>
+               next to her, kidding her, and telling her not to <lb/>
+               eat too much.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Cal will never be home for another Christmas, <lb/>
+               he died so that we all might enjoy a free one. <lb/>
+               Yes, Cal is dead, but Diane silently thanked God <lb/>
+               for Cal and the other boys who died for- -Christmas.
+            </p>
+         </div>
+         <space type="triple"/>
+         <div>
+            <head type="2" rend="centered">THE CORN COB</head>
+            <space type="double"/>
+            <p>
+               <figure><figDesc>fancy "W"</figDesc></figure>Well, Old Man Winter is a-whirlin' 'round the <lb/>
+               house again, and January is full force!  January, <lb/>
+               that's the month that everybody has to pay the <lb/>
+               bills for the fun they had in December.  Also the <lb/>
+               month that everybody breaks the New Year's resolu-<lb/>tions they didn't intend to keep, anyway!
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               So, slither into your rocking chairs and pull <lb/>
+               <pb facs="1946_39.jpg"/>
+               <fw>
+                  <hi rend="centered">The Corn Cob</hi>
+                  <hi rend="right aligned">39</hi>
+               </fw>
+               <space type="double"/>
+               out your knitting, 'cause you want to be sure and <lb/>
+               not miss this month's little bits of "ha!  ha!" <lb/>
+               Lend an ear, kiddies, - - - - - - - - -
+            </p>
+            <space type="double"/>
+            <sp><speaker>Doctor: </speaker><p>Great heavens!  Who stuffed that towel in <lb/>the patient's mouth??</p></sp>
+            <sp><speaker>Kilroy: </speaker><p>I did, Doc.  You said to main thing was <lb/>to keep her quiet!</p></sp>
+            <p><stage>(End of joke.  Laugh now.)</stage></p>
+            <p>Dear Tom:</p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Come over tomorrow evening.  Papa is at home, <lb/>but he is laid up with a very sore foot.  See?
+            </p>
+            <p rend="centered">
+               Love,
+            </p>
+            <p rend="centered">Mary</p>
+            <p>Dear Mary:</p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               I can't come over tomorrow evening.  I'm laid <lb/>up on account of your father's sore foot.  See?
+            </p>
+            <p rend="centered">
+               Love,
+            </p>
+            <p rend="centered">Tom</p>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The man called up the doctor and said, "I want <lb/>
+               you to come over right away!  The baby has just <lb/>
+               swallowed my fountain pen!"
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               "I'll be over right away," replied the doctor. <lb/>
+               "Meanwhile, what are you doing?????"
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               "Oh," replied the gentleman, "I'm using a lead <lb/>
+               pencil!!"
+            </p>
+            <space type="double"/>
+            <sp><speaker>Golsby: </speaker><p>"Did anyone in your family ever make a <lb/>brilliant marriage???"</p></sp>
+            <sp><speaker>Harry: </speaker><p>"Only my wife!"</p></sp>
+            <space type="double"/>
+            <sp><speaker>First Camper: </speaker><stage>(sleeping in a haystack)</stage><p>"O-U-C-H!"</p></sp>
+            <sp><speaker>Second Camper: </speaker><p>"Wazzamatta????"</p></sp>
+            <sp><speaker>First Camper: </speaker><p>"I just found the needle!"</p></sp>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               A colored soldier had been peeling potatoes <lb/>
+               until his hands ached.  Turning to a fellow K. P. <lb/>
+               he said, "What dat sergeant mean when he call us <lb/>
+               K. P.?????" 
+            </p>
+            <pb facs="1946_40.jpg"/>
+            <fw>
+               <hi rend="left aligned">40</hi>
+               <hi rend="centered">The Nebraskanette</hi>
+            </fw>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               "Ah dunno," replied he co-worker.  "But from <lb/>
+               de look on his face, ah figures he dun meant, <lb/>
+               'Keep Peelin'."<ptr target="#kp"/>
+            </p>
+            <space type="double"/>
+               <sp><speaker>Wife: </speaker><p>"John, there's a burglar in the silver and  <lb/>another in the pantry eating my pies.  Get up and <lb/>call for help!</p></sp>
+            <sp><speaker>John: </speaker><stage>(at the window)</stage><p>"Help!  Help!  Send the  <lb/>police!  Better send a doctor, too!!!!!"</p><tech>(His <lb/>wife's pies!)</tech></sp>
+            <space type="double"/>
+            <sp><speaker>Sentry: </speaker><p>"Halt!  Who goes there???"</p></sp>
+            <sp><speaker>Voice in the dark: </speaker><p>"An American."</p></sp>
+            <sp><speaker>Sentry: </speaker><p>"Oh, is that so!  Advance and recite the <lb/>second verse of "The Star-Spangled Banner.'"</p></sp>
+            <sp><speaker>Voice in the dark: </speaker><p>"I don't know it!"</p></sp>
+            <sp><speaker>Sentry: </speaker><p>"Pass, American!"</p></sp>
+            <space type="double"/>
+            <sp><speaker>Spinster: </speaker><p>"So the waiter said to me, 'How would <lb/>you like your rice???'"</p></sp>
+            <sp><speaker>Friend: </speaker><p>"Yes!  Yes!  Go on, dearie."</p></sp>
+            <sp><speaker>Spinster: </speaker><p>"So I said wistfully, 'Thrown at me!'"</p></sp>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Now that you've lent your ear, you can have it <lb/>
+               back again.  I could tell you about a "chuck" be-<lb/>ing a Shakespearean term meaning chicken, but I <lb/>
+               won't.  That's because that mean A. Flood beat me <lb/>
+               to it in that Katty Kolumn of her.<ptr target="#af"/>.    (Gerrrrrrr!) <lb/>
+               - -See December issue.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Well drown me in alcohol, and call me pickled, <lb/>
+               if it isn't time to run along.  So, until next time <lb/>
+               I'll say in Spanish  (???)  "hasty lumbago" which <lb/>
+               means, goo-by, and I do mean goo!    Frank Faires
+            </p>
+         </div>
+         <pb facs="1946_41.jpg"/>
+         <space type="quadruple"/>
+         <div>
+            <head type="2" rend="centered">HOW MANGE AGES...</head>
+            <space type="double"/>
+            <byline rend="centered">Joan Kinsel</byline>
+            <space type="triple"/>
+            <p>
+               <figure><figDesc>fancy I</figDesc></figure>If one could imagine himself as standing on a <lb/>
+               lofty peak from which he could witness the <lb/>
+               panorama of life through the ages spread out <lb/>
+               before him how struggling, how foolish our <lb/>
+               twentieth century existence would seem!  How <lb/>
+               unimportant the mere four or five thousand years <lb/>
+               of our civilization would be!  For the vastness of <lb/>
+               time is almost beyond human comprehension.  No one <lb/>
+               as yet can accurately tell how long our earth, our <lb/>
+               universe, and the seemingly limitless regions of <lb/>
+               the heavens beyond have existed.  Henrik Van Loon <lb/>
+               illustrated the immensity of time in this story: <lb/>
+               "Picture a rock a hundred miles high and a hundred <lb/>
+               miles wide.  To this rock a little bird comes <lb/>
+               every thousand years to sharpen his beak.  When <lb/>
+               the rock is completely worn away one day of <lb/>
+               eternity will have passed."
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Somewhere 'way back in that dark abyss of time <lb/>
+               our planet was crested and the stage was set for <lb/>
+               life to begin, for the slow ascent of man.  We are <lb/>
+               thus far on our journey and we do not know why we <lb/>
+               are here or where we are going.  We are endowed <lb/>
+               with a world of great beauty and tremendous <lb/>
+               capabilities.  Often it looks as if we are at a <lb/>
+               stand-still or sliding back a little for we <lb/>
+               brutally murder our fellow men at too short <lb/>
+               intervals and spend a great part of our energies <lb/>
+               devising more efficient or larger scale methods of <lb/>
+               warfare.  Look back for a moment and see how little <lb/>
+               in the chronicles of Father Time, yet how much <lb/>
+               from our own vantage point, we have progressed.
+            </p>
+            <fw>
+               <hi rend="centered">41</hi>
+            </fw>
+            <pb facs="1946_42.jpg"/>
+            <fw>
+               <hi rend="left aligned">42</hi>
+               <hi rend="centered">The Nebraskanette</hi>
+            </fw>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The Darwinian theory traces the development of <lb/>
+               man from the simplest forms of life (like jelly-<lb/>fish) to his present state.  It is only a theory, <lb/>
+               there is no proof; what remains is that man was a <lb/>
+               special creation with a soul and the ability to <lb/>
+               use his brain.  In this way he was very different <lb/>
+               from all other living things and that is why we <lb/>
+               study human history instead of the history of cats <lb/>
+               or dogs.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The common conception of prehistoric man is <lb/>
+               some long-armed, bent-kneed, gorilla-like creature <lb/>
+               racing through the forest dragging his wife behind <lb/>
+               him by her hair just letting her bump along if she <lb/>
+               can't keep up.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Such an impression is greatly exaggerated.  We <lb/>
+               know practically nothing about early man and his <lb/>
+               origin but from discoveries of bones buried in <lb/>
+               ancient soils, rude stone weapons, and pictures on <lb/>
+               the walls of long forgotten caves, scientists have <lb/>
+               pieced together a pictures of man's early existence.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               According to our present standards the first <lb/>
+               man was far from handsome, although he probably <lb/>
+               didn't think so.  He was considerably shorter <lb/>
+               than we; he had a massive protruding jaw, a <lb/>
+               sloping forehead, and a monkey-like face.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Early man didn't have to worry about income tax <lb/>
+               or getting the car fixed but he was constantly <lb/>
+               running for his very life with some angry mammoth <lb/>
+               or a pack of wild boars hot on his heels.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Food was the prime objective in life and he <lb/>
+               spent most of his day prowling for something to <lb/>
+               eat.  However, food was hard to obtain and not <lb/>
+               very appetizing when one did get it.  The menu for <lb/>
+               today might have included raw leaves, the roots of <lb/>
+               plants, raw eggs, or, if hunting had been favorable <lb/>
+               perhaps a wild bird or a small rabbit.  Nothing <lb/>
+               was cooked of course for primitive man had not <lb/>
+               seen fire except maybe from a volcano and if he <lb/>
+               did see a volcano he more than likely didn't waste <lb/>
+               <pb facs="1946_43.jpg"/>
+               <fw>
+                  <hi rend="centered">Macbeth</hi>
+                  <hi rend="right aligned">43</hi>
+               </fw>
+               <space type="double"/>
+               any time finding a place to hide from it.  He tore <lb/>
+               at his food with his teeth like an animal, but <lb/>
+               people were not particular about manners in those <lb/>
+               days, the main thing was to eat.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               He didn't worry about clothes, but suffered <lb/>
+               the intense cold of winter and the blazing heat of <lb/>
+               summer as best he could.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               The day held terrors but when evening came, man <lb/>
+               huddled fearfully in some cave or hollow tree. <lb/>
+               The danger of the fierce animals of the night was <lb/>
+               no trivial matter and the law was "Eat or be <lb/>
+               eaten."
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Life was full of fear and misery and yet man <lb/>
+               has survived hunger, cold, disease, and the slow <lb/>
+               ascent goes on.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               "How many ages in time, no one knows the <lb/>
+               rhyme."  So goes an old nursery song.<ptr target="#rossetti"/>.  The drama <lb/>
+               of life will continue on into the ages to come <lb/>
+               with man struggling onward to some final goal.
+            </p>
+         </div>
+         <space type="triple"/>
+         <div> <lg type="poem">
+            <head type="2" rend="centered">MACBETH<ptr target="#macbeth"/></head>
+            <space type="double"/>
+            <byline rend="centered">Betty Schwaninger</byline>
+            <space type="double"/>
+            <lg>
+               <l>Listen my children</l>
+               <l>And you shall hear</l>
+               <l>a modern version</l>
+               <l>on Bill Shakespeare</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>Macbeth had been a hero,</l>
+               <l>He'd been willing to give his life,</l>
+               <l>But now that the war was over</l>
+               <l>He was returning to his wife.</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>As he came slowly over the hill,</l>
+               <l>The witches began to sing,</l>
+               <l>"Hey, Joe, you've been promoted,</l>
+               <l>You're going to be a king."</l>
+            </lg>
+            <pb facs="1946_44.jpg"/>
+            <fw>
+               <hi rend="left aligned">44</hi>
+               <hi rend="centered">The Nebraskanette</hi>
+            </fw>
+            <space type="double"/>
+            <lg>
+               <l>"Are you kidding'?" he shouted back,</l>
+               <l>"You surely can't mean I.</l>
+               <l>I've just come back from battle,</l>
+               <l>I'm just a plain G.I."</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>But as he thought about it</l>
+               <l>His head began to swell,</l>
+               <l>"Murder the king for a position?</l>
+               <l>Why not?  I'd just as well!"</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>He told his wife about it.</l>
+               <l>She thought the idea was keen.</l>
+               <l>"If he becomes a king," she thought,</l>
+               <l>"Then I'll become a queen."</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>She raced around like a madman,</l>
+               <l>She planned a perfect crime.</l>
+               <l>The king was on his way,</l>
+               <l>And she didn't have much time.</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>She planned to stew his waiters,</l>
+               <l>Enough so they would stagger,</l>
+               <l>And after stabbing the sleeping king</l>
+               <l>With them she'd leave the dagger.</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>Well, here the story gets so messed up</l>
+               <l>You could really "et off steam,"</l>
+               <l>'Cause while the murder is going on</l>
+               <l>Macbeth goes "off the beam."</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>Anyhow the king was murdered,</l>
+               <l>By whom I wouldn't know.</l>
+               <l>Your guess is just as good as mine,</l>
+               <l>Maybe it was Smoe!</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>Macduff was to call for Duncan,</l>
+               <l>As he came up near the bed</l>
+               <l>He saw that Duncan was "out cold,"</l>
+               <l>In fact, that he was dead.</l>
+            </lg>
+            <pb facs="1946_45.jpg"/>
+            <fw>
+               <hi rend="centered">Macbeth</hi>
+               <hi rend="right aligned">45</hi>
+            </fw>
+            <space type="double"/>
+            <lg>
+               <l>Macbeth said, "Well, whata ya know,"</l>
+               <l>And acted like a saint,</l>
+               <l>And Lady Macbeth said, "Goodness me,"</l>
+               <l>And pulled a fictitious faint.</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>And just to show you how sin does grow</l>
+               <l>Macbeth went to Duncan's room,</l>
+               <l>And to cover up his wickedness</l>
+               <l>He killed King Duncan's groom.</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>Banquo suspected Macbeth</l>
+               <l>And he began to scoff.</l>
+               <l>Macbeth, afraid he'd be found out,</l>
+               <l>Decided to "bump him off."</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>He hired two murderers to do it,</l>
+               <l>So it wouldn't get his coat,</l>
+               <l>They caught him on the way to the castle</l>
+               <l>And cut his noble throat.</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>At the banquet that night,</l>
+               <l>Macbeth was offered a chair.</l>
+               <l>He stepped back with alarm</l>
+               <l>For Banquo's ghost was there.</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>After Banquo was murdered,</l>
+               <l>His plans began to droop,</l>
+               <l>He went again to the witches</l>
+               <l>To get the latest scoop.</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>They showed him four apparitions,</l>
+               <l>The first was really rough.</l>
+               <l>It was an armed heard</l>
+               <l>That said, "Beware of Macduff."</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>The second a bloody child</l>
+               <l>That said, "Take it easy my friend,</l>
+               <l>For no one born of woman</l>
+               <l>Can bring your life to an end."</l>
+            </lg>
+            <pb facs="1946_46.jpg"/>
+            <fw>
+               <hi rend="left aligned">46</hi>
+               <hi rend="centered">The Nebraskanette</hi>
+            </fw>
+            <space type="double"/>
+            <lg>
+               <l>The third was a crowned child</l>
+               <l>That really did him some good.</l>
+               <l>It told him he'd be a ruler</l>
+               <l>'Till his castle met Birnam Wood.</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>The fourth came up with a list</l>
+               <l>And read off a string of names,</l>
+               <l>It named the rulers of Scotland</l>
+               <l>Way down to the reign of James.</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>After the witches had gone,</l>
+               <l>Lennox came in "flyin' low,"</l>
+               <l>"Macduff has gone to England</l>
+               <l>So brother you'd better blow."</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>Macbeth wanted revenge,</l>
+               <l>He'd end this miserable strife</l>
+               <l>So he went to Macduff's castle</l>
+               <l>And killed his kids and wife.</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>When Macduff heard the news</l>
+               <l>It knocked him flat on the floor.</l>
+               <l>Malcolm pledged his friendship</l>
+               <l>And together they declared war.</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>His wife began to worry,</l>
+               <l>It affected her cruel brain,</l>
+               <l>She talked so much to herself</l>
+               <l>She finally went insane.</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>Macbeth's morale had lowered,</l>
+               <l>His foes were all about.</l>
+               <l>His wife, she "kicked the bucket"</l>
+               <l>Just to top it all out.</l>
+            </lg>
+            <space type="double"/>
+            <lg>
+               <l>The witches' prophecies came true,</l>
+               <l>He'd had just about enough.</l>
+               <l>To make this story short and sweet</l>
+               <l>He's bumped off by Macduff</l>
+            </lg>
+            <pb facs="1946_47.jpg"/>
+            <fw>
+               <hi rend="centered">The Dream Come True</hi>
+               <hi rend="right aligned">47</hi>
+            </fw>
+            <space type="double"/>
+            <lg>
+               <l>Maybe this is hard to follow,</l>
+               <l>Maybe it sounds queer.</l>
+               <l>But my "linguo" is easier to understand</l>
+               <l>Than that of Bill Shakespeare.</l>
+            </lg> </lg>
+         </div>
+         <space type="quadruple"/>
+         <div>
+            <head type="2" rend="centered">THE DREAM COMES TRUE</head>
+            <space type="double"/>
+            <byline rend="centered">Katie Lehman</byline>
+            <space type="triple"/>
+            <p>
+               <figure><figDesc>fancy "G"</figDesc></figure>Gail glanced up to see Ron's smiling face.  So <lb/>
+               many thoughts sprang to her mind.  Thoughts that <lb/>
+               went way back to his football days at school.  He <lb/>
+               had been so proud because he had been the star <lb/>
+               player on his team.  After he had graduated, he had <lb/>
+               decided to join the Navy.  Then he had been sent <lb/>
+               across and after three years he had come home <lb/>
+               again.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               It had been a long day, the day Ron came home. <lb/>
+               Everyone tried to do and say the right things.  It <lb/>
+               was hard to know what to say for Ron had come home <lb/>
+               blind.  Gail had <choice><sic>marvelled</sic><corr>marveled</corr></choice> at the way he had kept <lb/>
+               his chin up and smiled all the time.  But now she <lb/>
+               knew that he felt miserable inside.  She had found <lb/>
+               out just yesterday.  Ron had been sitting in the <lb/>
+               living room.  The radio had been on and the <lb/>
+               announcer was telling about a star football <lb/>
+               player and the games he was playing in.  Ron <lb/>
+               suddenly jumped up, turned off the radio and made <lb/>
+               his way the best he could from the room.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Gail glanced at Ron again.  He was smiling as <lb/>
+               he listened to the comedy play on the radio.  "Oh <lb/>
+               why can't he be made to see?"  She shut her eyes <lb/>
+               and kept repeating to herself, "Please make him <lb/>
+               see again, please."  Gail couldn't sit and watch <lb/>
+               him any longer so she went up to bed.
+            </p>
+            <pb facs="1946_48.jpg"/>
+            <fw>
+               <hi rend="left aligned">48</hi>
+               <hi rend="centered">The Nebraskanette</hi>
+            </fw>
+            <space type="double"/>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Sleep slowly overtook her and she fell asleep <lb/>
+               to dream.  She heard music, sweet bell-like music. <lb/>
+               It came from the stars in the sky.  The music <lb/>
+               became louder and Ron appeared.  He was in his <lb/>
+               football suit and carried his football in his hand. <lb/>
+               A bright star shone on his face and she could see <lb/>
+               that he could see again.  A voice softly said, "He <lb/>
+               shall see."
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               "He can see, he can see," she cried.  Then <lb/>
+               suddenly she awoke.  She could hear her mother <lb/>
+               saying, "My son, oh my son."
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               She jumped out of bed and hurried down stairs. <lb/>
+               Ron was smiling.  His eyes were half opened.  He <lb/>
+               didn't say anything but just stood there smiling. <lb/>
+               Then she remembered what the doctor had said. <lb/>
+               They were to call him right away if anything <lb/>
+               happened.  She knew her mother was much too happy <lb/>
+               to remember to do it, so she walked quietly to the <lb/>
+               phone and called him.
+            </p>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Both Ron and her mother were standing there in <lb/>
+               a daze when Dr. Green came.  When Ron saw the <lb/>
+               doctor, he became filled with silence as the <lb/>
+               doctor analyzed the case.  He looked up.  "It's <lb/>
+               amazing, the object has moved to such a position <lb/>
+               that we can safely operate."
+            </p>
+            <figure><figDesc>hand-drawn boy in overalls, a long-sleeve shirt, shoes, and a hat, holding a round object with lines on it. The object looks somewhat like a basketball.</figDesc></figure>
+            <p>
+               &#160;&#160;&#160;&#160;
+               Gail and her mother sat in the waiting room. <lb/>
+               Neither had much to say to each <lb/>
+               other.  Soon the doctor came out. <lb/>
+               His eyes were filled with won-<lb/>derment.  He did not speak by <lb/>
+               they knew by the light in his eyes <lb/>
+               and the way he smiled, that it <lb/>
+               had been a success.
+            </p>
+         </div>
+      </body>
+     <back>
+        <pb facs="1946_49.jpg"/>
+        <pb facs="1946_50.jpg"/>
+        <div>
+           <head type="2">Notes</head>
+           <note type="editorial" xml:id="wc"><hi rend="bold">Note 1:</hi> Willa Cather was born December 7, 1873 in Virginia; however, she and her family moved to Nebraska in 1883. Cather graduated from the University of Nebraska-Lincoln in 1895 and, during her long writing career, became well-known for her writings about pioneering Nebraska (Ahearn).</note>
+           <note type="editorial" xml:id="smoke"><hi rend="bold">Note 2:</hi> In 1905, Nebraska "outlawed the sale, manufacture, or distribution of cigarettes and cigarette papers" ("Anti-smoking Law of 1905"). This law did not restrict the actual smoking of cigarettes and said nothing about pipe tobacco or cigars (a more "socially acceptable" option). Thus smokers still found ways to acquire cigarettes. However, in 1919, the ban was repealed and replaced with "two new cigarette laws, 'Smoking cigarettes in public eating places, penalty' and 'Advertising cigarettes, penalty'" ("Anti-smoking Law of 1905). Again, only prohibiting cigarette smoking, and not tobacco use in general. However, the University of Nebraska-Lincoln prohibited smoking on campus, regardless of the form as early as 1907 ("Smokers on the Campus"). So this commentary on boys who smoke discusses an idea that is generally permitted, though technically not allowed at their school, which was located on the University of Nebraska-Lincoln's campus.</note>
+           <note type="editorial" xml:id="yw"><hi rend="bold">Note 3:</hi> Youth Week was sponsored by the United Christian Youth Movement, as noted in the author's text. The United Christian Youth Movement of North America began in 1934 (Leffler &#38; Bond). According to a 1948 newspaper, it was under the supervision of the International Council of Religious Education (Venable). The United Christian Youth Movement sponsored many conferences for youth that sought to correct perceived societal ills such as race tension and poor leadership capabilities (Leffler &#38; Bond). By 1952, the movement had switched organizational supervision to the National Council of Churches (Jameson).</note>
+           <note type="editorial" xml:id="jb"><hi rend="bold">Note 4:</hi> The "jitterbug" dance originated in the United States and became popular in the 1930s and 1940s. Its movements are "energetic, acrobatic, and improvisational" and can be "performed with a partner, solo, or in a line" (Stein). Its name comes from the "jerky movements" of dancers during the Prohibition who drank too much alcohol. This type of dance is most often performed with jazz and swing music that has 4/4 time, though other upbeat music such as rock'n'roll can work (Stein).</note>
+           <note type="editorial" xml:id="naw"><hi rend="bold">Note 5:</hi> This essay, as with many essays in this text, should be read with context. The student who wrote this work moved to Nebraska from a southern state which likely still had Jim Crow laws. As such, their previous experience with race vastly differed from their observations of racial interactions in Nebraska. Although these observations likely were not cohesive across every black/white interaction, it does bring to light that racial prejudice was slowly changing. Readers should notice that, despite comments that seem derogatory, this student's expression of ideas are fairly radical for their time.</note>
+           <note type="editorial" xml:id="sh"><hi rend="bold">Note 6:</hi> The Nebraska state "Home for Dependent Children" was originally established as the "Home for the Friendless" in 1881 and "took in destitute children and elderly women" (Nelson). Though established by the state legislature, it was a private organization until 1897 when it was taken over by the state (Nelson). Children who were "abandoned, neglected, or committed by the court" were "placed by the Home with adoptive or foster families" ("Youngest and...").The home regularly placed 100 or more children each year and housed between 200 and 300 children ("Youngest and..."). In 1906, the Nebraska Orthopedic Hospital took over one floor of the home. In 1909, the name changed to the "State Public School" and in 1911 to "Home for Dependent Children." With this final name change, the home was temporarily moved from the southeast corner of South and 11st Streets in Lincoln, NE to 944 H Street because the hospital took over the entire building. The home moved again in 1914 to 1425 F Street (Nelson). By 1946, it is evident that the home had moved again, this time to the address the author notes: 5903 Walker Avenue.</note>
+           <note type="editorial" xml:id="jm"><hi rend="bold">Note 7:</hi> Jazz is a type of music that relies heavily on improvisation. Although there is much variety in jazz, it tends to be rhythmic and include "swing" forward momentum. Jazz music often has call and repeat type sounds where one instrument might respond to another instrument's notes. Because of the personal nature of jazz, it is often emotion-filled and unique to the artist ("What is Jazz?").</note>
+           <note type="editorial" xml:id="gg"><hi rend="bold">Note 8:</hi> The author of this essay mixed up the Roman and Greek gods. The student likely learned about both of these civilizations around the same time in class. Since the Roman culture appropriated many of the Greek customs, including their dieties, the student likely misremembered which diety names were the Greek version and which were the Roman version. As such, they put the Roman names in their essay. The corrected Greek version are noted.</note>
+           <note type="editorial" xml:id="macbeth"><hi rend="bold">Note 9:</hi> This work is a parody of William Shakespeare's <hi rend="italic">Macbeth</hi>. <hi rend="italic">Macbeth</hi> is one of Shakespeare's shorter tragedies and was likely written between 1599 and 1606. The play is originally set in Scotland and follows Scottish general Macbeth as he hungers for political power. Macbeth and his wife Lady Macbeth both spiral downward as they encounter the consequences of greed ("Macbeth by William Shakespeare"). The author of this parody likely read the play in class, and then chose to create an alternate version of the text, sometimes staying close to the original and sometimes drifting away.</note>
+           <note type="editorial" xml:id="aide"><hi rend="bold">Note 10:</hi> "Aide de camp" means "a subordinate military or naval officer acting as a confidential assistant to a superior, usually to a general officer or admiral" ("aide-de-camp"). In the context of this text, the author is likely insinuating that she feels like her mother's subordinate who is forced to help in the kitchen, even though she'd rather not.</note>
+           <note type="editorial" xml:id="gay"><hi rend="bold">Note 11:</hi> Although "gay" started showing up in written psychological works in the 1940s, it wasn't until the 1970s that the word become a more common term for "a (usually male) homosexual" ("gay (adj.)"). Before it became more common to discuss sexual orientation in the 1970s, "gay" described a person who was "full of joy, merry; light-hearted, carefree" or someone who was "wanton, lewd, lascivious" ("gay (adj.)"). For this text, the meaning is likely the first archaic definition, describing a joyous or carefree feeling. For more information on the etymology of the term "gay," visit www.etymonline.com/word/gay</note>
+           <note type="editorial" xml:id="longfellow"><hi rend="bold">Note 12:</hi> Although the author states that their quote is from a nursery rhyme, the quote is actually from a Henry Wadsworth Longfellow poem entitled "There was a little girl." To read the entire short poem, visit www.poetryfoundation.org/poems/44650/there-was-a-little-girl.</note>
+           <note type="editorial" xml:id="salerno"><hi rend="bold">Note 13:</hi> In this text, "Salerno" likely refers to the Allied invasion of Italy in September 1943 during World War II. The invasion did not end well. The US army tried to time the invasion with the Italian surrender, but it did not go according to plan. The Germans quickly took control of Italy when the surrender occurred, and thus the US troops met heavy fire as they came onshore. The resulting battle was horrible. After three days, it seeme the US army was finished, but they (with help from the British) brough in technological weapons and and eventually the German army was defeated. However, this was not without heavy causalties on both sides (Citino). To read a more day-by-day narrative of the battle, visit www.nationalww2museum.org/war/articles/75-years-ago-us-invasion-italy. </note>
+           <note type="editorial" xml:id="kp"><hi rend="bold">Note 14:</hi> In the military, "K. P." means "Kitchen Police" or "Kitchen Patrol." This duty is often assigned to lower-ranking personnel ("KP duty"). In the context of this "joke," the racial tension between the seemingly uneducated "colored" soldiers and the implied white sergeant shows just how this "lower-ranking personnel" might have been chosen for K. P. duty.</note>
+           <note type="editorial" xml:id="af"><hi rend="bold">Note 15:</hi> "A. Flood" likely refers to the author's classmate Audrey Flood, who wrote "The History of Algebra."</note>
+           <note type="editorial" xml:id="rossetti"><hi rend="bold">Note 16:</hi> Although the author states that their quote is from a nursery rhyme, the quote is actually from a Christina Rossetti poem entitled "How Many Seconds?" To read the entire poem, visit quillsliteracy.org/how-many-seconds-by-christina-rossetti-1684/.</note>
+           
+           <p rend="centered"><hi rend="bold">Works Cited</hi></p>
+           <p>
+              "Aide-de-camp." <hi rend="italic">Dictionary.com</hi>, Dictionary.com, LLC, 2021, www.dictionary.com/browse/aide-de-camp. Accessed 29 Nov. 2021.
+           </p>
+           <p>
+              Ahearn, Amy. "A Brief Biographical Sketch." <hi rend="italic">Willa Cather Archive</hi>, University of Nebraska-Lincoln Center for Digital Research in the Humanities, 2021. cather.unl.edu/life/shortbio. Accessed 22 Nov. 2021.
+           </p>
+           <p>
+              "Anti-smoking Law of 1905." <hi rend="italic">History Nebraska</hi>, NIC Nebraska, history.nebraska.gov/blog/anti-smoking-law-1905. Accessed 22 Nov. 2021.
+           </p>
+           <p>
+              Citino, Robert. "75 Years Ago: The US Invasion of Italy." <hi rend="italic">The National World War Museum: New Orleans</hi>, 6 Sept. 2018, www.nationalww2museum.org/war/articles/75-years-ago-us-invasion-italy. Accessed 29 Nov. 2021.
+           </p>
+           <p>
+              "Gay (adj.)." <hi rend="italic">Online Etymology Dictionary</hi>, Douglas Harper, 2021, www.etymonline.com/word/gay. Accessed 29 Nov. 2021.
+           </p>
+           <p>
+              Jones, Jameson. “Christian Youth Pledge ‘Action’: At Conference Sponsored by U.C.Y.M., They Study ‘Why’ and ‘How’ to Put Their Faith to Work.” <hi rend="italic">The Christian Century</hi>, vol. 69, no. 38, Sept. 1952, p. 1070. EBSCOhost, search-ebscohost-com.libproxy.unl.edu/login.aspx?direct=true&amp;db=rfh&amp;AN=ATLA0001798788&amp;site=ehost-live.
+           </p>
+           <p>
+              "KP duty." <hi rend="italic">Wikipedia</hi>, 11 Nov. 2021, en.wikipedia.org/wiki/KP_duty. Accessed 22 Nov. 2021.
+           </p>
+           <p>
+              Leffler, Phyllis and Bond, Julian. "United Christian Youth Movement of North America." <hi rend="italic">Exploration in Black Leadership</hi>, UVA Arts and Sciences, blackleadership.virginia.edu/glossary-terms/united-christian-youth-movement-north-america. Accessed 22 Nov. 2021.
+           </p>
+           <p>
+              "Macbeth by William Shakespeare." <hi rend="italic">www.WilliamShakespeare.net</hi>, 2021, www.williamshakespeare.net/macbeth.jsp. Accessed 29 Nov. 2021.
+           </p>
+           <p>
+              Nelson, John. "Home for the Friendless." <hi rend="italic">History Nebraska</hi>,Nebraska Memories, memories.nebraska.gov/cdm/ref/collection/nshs/id/189. Accessed 22 Nov. 2021.
+           </p>
+           <p>
+              "Smokers on the Campus." <hi rend="italic">History Nebraska</hi>, NIC Nebraska, history.nebraska.gov/publications/smokers-campus. Accessed 22 Nov. 2021.
+           </p>
+           <p>
+              Stein, Debra. "The History of the Jitterbug Dance." <hi rend="italic">Our Pastimes</hi>, Leaf Group Ltd., 15 Sept. 2017, ourpastimes.com/the-history-of-the-jitterbug-dance-12191756.html. Accessed 22 Nov. 2021.
+           </p>
+           <p>
+              Venable, Charles Leslie. “Announce Plans for Youth Week: 39 Denominations to Participate in the Observance Sponsored Annually by the International Council.” <hi rend="italic">The Christian Century</hi>, vol. 65, no. 2, Jan. 1948, p. 52. EBSCOhost, libproxy.unl.edu/login?url=https://search.ebscohost.com/login.aspx?direct=true&amp;db=rfh&amp;AN=ATLA0001422666&amp;site=ehost-live. Accessed 22 Nov. 2021.
+           </p>
+           <p>
+              "What is Jazz?" <hi rend="italic">National Museum of American History Behring Center</hi>, americanhistory.si.edu/smithsonian-jazz/education/what-jazz. Accessed 22 Nov. 2021.
+           </p>
+           <p>
+              "Youngest and oldest wards of the Home, Nebraska Home for Dependent Children, Lincoln." <hi rend="italic">History Nebraska Library Commission</hi>, Nebraska Memories, memories.nebraska.gov/cdm/singleitem/collection/nlc/id/203/rec/2. Accessed 22 Nov. 2021.
+           </p>
+        </div>
+     </back>
+  </text>
+</TEI> 
+
+<!-- facsimiles showing up, how to add weblinks-->

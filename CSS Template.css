@@ -1,0 +1,137 @@
+p {
+text-align: justify;
+text-justify: inter-word;
+font-family: times-new-roman;
+font-size: 16px;
+color: black;
+}
+
+p.title {
+    text-align:center;
+}
+
+p.docImprint {
+    text-align:center;
+}
+
+p.docDate {
+    text-align:center;
+}
+
+table {
+    width:50%;
+}
+
+td {
+    text-align:justify;
+    padding:15px;
+}
+
+td.right {
+    text-align:right;
+}
+
+p.stage {
+    text-align:center;
+}
+
+
+h1 {
+    text-align:center;
+}
+
+h2 {
+font-family: Zapf-Chancery, cursive;
+text-decoration: underline;
+text-align:center;
+}
+
+h4 {
+    text-align:center;
+}
+
+h5 {
+    text-align:center;
+}
+
+p.closer {
+    text-align:right;
+}
+
+
+p.byline {
+    text-align: center;
+}
+
+p.editorial {
+color:black;  
+line-height: 1.5;
+}
+
+p.center {
+    text-align:center;
+}
+
+div.notes {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;   
+}
+
+body {
+background-color: tan;
+margin-right:125px;
+margin-left:125px;
+padding:50px;
+}
+
+html {
+background-color:black;
+}
+
+author {
+    text-align:center
+}
+
+
+
+
+/* .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: red;
+}
+
+.right {
+    right: 0;
+    background-color: blue;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered-img {
+    width: 150px;
+    border-radius: 50%;
+} */
+
+/* img {
+    padding:25px;
+    width:500px;
+    float:left;
+} */
