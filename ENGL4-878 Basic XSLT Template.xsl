@@ -80,19 +80,13 @@
         </p>
     </xsl:template>
     
- <!--   <xsl:template match="tei:p[@rend='banner']">
-        <p class="banner">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template> -->
-    
     
     <xsl:template match="tei:sp/tei:p">
             <xsl:apply-templates/>
     </xsl:template>
     
     
-    <xsl:template match="stage">
+    <xsl:template match="tei:stage">
         <p class="stage">
             <xsl:apply-templates/>
         </p>
@@ -105,33 +99,48 @@
     </xsl:template>
     
     
- <!--   <xsl:template match="tei:div[@type='banner']">
-        <section class="banner">
-            <xsl:apply-templates/>
-        </section>
-    </xsl:template> -->
-    
-    
     <xsl:template match="tei:ptr">
-        <xsl:element name="a">
+        <xsl:choose>
+            <xsl:when test="parent::tei:cell">
+                <xsl:element name="a">
+                    <xsl:attribute name="href">
+                    <xsl:value-of select="@target"/>
+                </xsl:attribute>
+                    <xsl:value-of select="preceding-sibling::tei:p"/>
+                </xsl:element>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:element name="a">
             <xsl:attribute name="href">
                 <xsl:value-of select="@target"/>
             </xsl:attribute>
-            (<xsl:value-of select="@n"/>)  <!--Jocelyn, here is the place where I was able to select the number of the note to show intead of an asterisk.  I also put that number in parentheses as in (2), but you can remove those if you want or replace them with brackets or something.  You could also tinker with making them superscript in CSS, but that's another classing issue -->
+            *
             <xsl:apply-templates/>
+        </xsl:element></xsl:otherwise></xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="tei:anchor">
+        <xsl:element name="a">
+            <xsl:attribute name="id">
+                <xsl:apply-templates select="@xml:id"/>
+            </xsl:attribute>
         </xsl:element>
     </xsl:template>
+    
+    <xsl:template match="tei:cell/tei:p">
+        <xsl:choose>
+            <xsl:when test="following-sibling::tei:ptr"/>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    
     
     
     <xsl:template match="tei:space"/>
     
-    
-    
- <!--   <xsl:template match="tei:head[@type='banner']">
-        <h1>
-            <xsl:apply-templates/>
-        </h1>
-    </xsl:template>  -->
     
     
     <xsl:template match="tei:head[@type='1']">
@@ -246,7 +255,6 @@
             <xsl:attribute name="href">1946/<xsl:value-of select="@facs"/></xsl:attribute><img><xsl:attribute name="src">1946/<xsl:value-of select="@facs"/></xsl:attribute></img>
         </a>
     </xsl:template>
-    
     
     
     <xsl:template match="tei:choice"> 

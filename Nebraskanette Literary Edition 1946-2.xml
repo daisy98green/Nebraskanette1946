@@ -86,7 +86,7 @@
                        <cb/><p>Preface.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.Joan Kinsel</p>
                     </cell>
                     <cell>
-                       <cb/><p>3</p>
+                       <cb/><p>3</p><ptr target="#Preface"/>
                     </cell>
                  </row>
                  <row>
@@ -94,7 +94,7 @@
                        <cb/><p>Stagefright&#160;&#160;&#160;&#160;..&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;.Barbara Fifer</p>
                     </cell>
                     <cell>
-                       <cb/><p>4</p>
+                       <cb/><p>4</p><ptr target="#Stagefright"/>
                     </cell>
                  </row>
                  <row>
@@ -102,7 +102,7 @@
                        <cb/><p>Willa Cather&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Edith Spatz</p>
                     </cell>
                     <cell>
-                       <cb/><p>6</p>
+                       <cb/><p>6</p><ptr target="#WillaCather"/>
                     </cell>
                  </row>
                  <row>
@@ -110,7 +110,7 @@
                        <cb/><p>My Christmas Memories&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Howard Bingham</p>
                     </cell>
                     <cell>
-                       <cb/><p>7</p>
+                       <cb/><p>7</p><ptr target="#MyChristmas"/>
                     </cell>
                  </row>
                  <row>
@@ -118,7 +118,7 @@
                        <cb/><p>A Bulging Buss&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Mary Lou McGerr</p>
                     </cell>
                     <cell>
-                       <cb/><p>8</p>
+                       <cb/><p>8</p><ptr target="#ABulging"/>
                     </cell>
                  </row>
                  <row>
@@ -126,7 +126,7 @@
                        <cb/><p>Boys Who Smoke&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Martha Webb</p>
                     </cell>
                     <cell>
-                       <cb/><p>9</p>
+                       <cb/><p>9</p><ptr target="#BoysWho"/>
                     </cell>
                  </row>
                  <row>
@@ -134,7 +134,7 @@
                        <cb/><p>Youth Week.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.Harriet Crawford</p>
                     </cell>
                     <cell>
-                       <cb/><p>10</p>
+                       <cb/><p>10</p><ptr target="#YouthWeek"/>
                     </cell>
                  </row>
                  <row>
@@ -142,7 +142,7 @@
                        <cb/><p>Tripping the Light Fantastic.&#160;&#160;&#160;&#160;.Twyla Dobbins</p>
                     </cell>
                     <cell>
-                       <cb/><p>11</p>
+                       <cb/><p>11</p><ptr target="#TrippingThe"/>
                     </cell>
                  </row>
                  <row>
@@ -150,7 +150,7 @@
                        <cb/><p>Negroes and Whites&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Lee Barnhill</p>
                     </cell>
                     <cell>
-                       <cb/><p>13</p>
+                       <cb/><p>13</p><ptr target="#NegroesAnd"/>
                     </cell>
                  </row>
                  <row>
@@ -158,7 +158,7 @@
                        <cb/><p>My Home.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Ruthie Merklin</p>
                     </cell>
                     <cell>
-                       <cb/><p>14</p>
+                       <cb/><p>14</p><ptr target="#MyHome"/>
                     </cell>
                  </row>
                  <row>
@@ -166,7 +166,7 @@
                        <cb/><p>Jazz Maniacs&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;John Moritz</p>
                     </cell>
                     <cell>
-                       <cb/><p>16</p>
+                       <cb/><p>16</p><ptr target="#JazzManiacs"/>
                     </cell>
                  </row>
                  <row>
@@ -174,7 +174,7 @@
                        <cb/><p>Sleep&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Mary Lou McGerr</p>
                     </cell>
                     <cell>
-                       <cb/><p>17</p>
+                       <cb/><p>17</p><ptr target="#Sleep"/>
                     </cell>
                  </row>
                  <row>
@@ -182,7 +182,7 @@
                        <cb/><p>Ice Skating or Otherwise&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Marian Waddell</p>
                     </cell>
                     <cell>
-                       <cb/><p>18</p>
+                       <cb/><p>18</p><ptr target="#IceSkating"/>
                     </cell>
                  </row>
                  <row>
@@ -190,7 +190,7 @@
                        <cb/><p>Three Great Documents in the</p><p>&#160;&#160;&#160;&#160;History of the U.S..&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Ruby Hock</p>
                     </cell>
                     <cell>
-                       <cb/><p>19</p>
+                       <cb/><p>19</p><ptr target="#ThreeGreat"/>
                     </cell>
                  </row>
                  <row>
@@ -198,7 +198,7 @@
                        <cb/><p>Who Were the Greeks.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Leslie Chisholm</p>
                     </cell>
                     <cell>
-                       <cb/><p>23</p>
+                       <cb/><p>23</p><ptr target="#WhoWere"/>
                     </cell>
                  </row>
                  <row>
@@ -206,7 +206,7 @@
                        <cb/><p>Buses- -To Be Squashed or</p><p>&#160;&#160;&#160;&#160;Not To Be Squashed&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Shirley Will</p>
                     </cell>
                     <cell>
-                       <cb/><p>25</p>
+                       <cb/><p>25</p><ptr target="#BusesTo"/>
                     </cell>
                  </row>
                  <row>
@@ -214,7 +214,7 @@
                        <cb/><p>Macbeth.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Frank Faires</p>
                     </cell>
                     <cell>
-                       <cb/><p>27</p>
+                       <cb/><p>27</p><ptr target="#MacbethFrank"/>
                     </cell>
                  </row>
                  <row>
@@ -222,7 +222,7 @@
                        <cb/><p>Old Friends of the Family.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.Jenibel Briggs</p>
                     </cell>
                     <cell>
-                       <cb/><p>30</p>
+                       <cb/><p>30</p><ptr target="#OldFriends"/>
                     </cell>
                  </row>
                  <row>
@@ -230,7 +230,7 @@
                        <cb/><p>History of Algebra&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Audrey Flood</p>
                     </cell>
                     <cell>
-                       <cb/><p>32</p>
+                       <cb/><p>32</p><ptr target="#HistoryOf"/>
                     </cell>
                  </row>
                  <row>
@@ -238,7 +238,7 @@
                        <cb/><p>Perfume and the Ladies.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Roger Phipps</p>
                     </cell>
                     <cell>
-                       <cb/><p>33</p>
+                       <cb/><p>33</p><ptr target="#PerfumeAnd"/>
                     </cell>
                  </row>
                  <row>
@@ -246,7 +246,7 @@
                        <cb/><p>One Too Many Sisters&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.Roberta Flory</p>
                     </cell>
                     <cell>
-                       <cb/><p>35</p>
+                       <cb/><p>35</p><ptr target="#OneToo"/>
                     </cell>
                  </row>
                  <row>
@@ -254,7 +254,7 @@
                        <cb/><p>I'll Be Home for Christmas&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.Ardeen Miller</p>
                     </cell>
                     <cell>
-                       <cb/><p>37</p>
+                       <cb/><p>37</p><ptr target="#IllBe"/>
                     </cell>
                  </row>
                  <row>
@@ -262,7 +262,7 @@
                        <cb/><p>The Corn Cob&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Frank Faires</p>
                     </cell>
                     <cell>
-                       <cb/><p>38</p>
+                       <cb/><p>38</p><ptr target="#TheCorn"/>
                     </cell>
                  </row>
                  <row>
@@ -270,7 +270,7 @@
                        <cb/><p>How Many Ages.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Joan Kinsel</p>
                     </cell>
                     <cell>
-                       <cb/><p>40</p>
+                       <cb/><p>40</p><ptr target="#HowMany"/>
                     </cell>
                  </row>
                  <row>
@@ -278,7 +278,7 @@
                        <cb/><p>Macbeth..&#160;&#160;&#160;&#160;..&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;Betty Schwaninger</p>
                     </cell>
                     <cell>
-                       <cb/><p>43</p>
+                       <cb/><p>43</p><ptr target="#MacbethBetty"/>
                     </cell>
                  </row>
                  <row>
@@ -286,7 +286,7 @@
                        <cb/><p>The Dream Comes True&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;. Katie Lehman</p>
                     </cell>
                     <cell>
-                       <cb/><p>47</p>
+                       <cb/><p>47</p><ptr target="#TheDream"/>
                     </cell>
                  </row>
               </table>
@@ -368,7 +368,7 @@
         <pb facs="1946_03.jpg"/>
         <div>
            <space type="quadruple"/>
-           <head type="2" rend="centered">PREFACE</head>
+           <head type="2" rend="centered">PREFACE</head><anchor xml:id="Preface"/>
            <space type="triple"/>
            <p>
               <figure><figDesc>fancy "L"</figDesc></figure>Last year a new idea was worked out <lb/>
@@ -392,7 +392,7 @@
       <body>
          <pb facs="1946_04.jpg"/>
          <div>
-         <head type="2" rend="centered">STAGEFRIGHT</head>
+            <head type="2" rend="centered">STAGEFRIGHT</head><anchor xml:id="Stagefright"/>
          <space type="double"/>
          <byline rend="centered">Barbara Fifer</byline>
          <space type="triple"/>
@@ -482,7 +482,7 @@
          </div>
          <pb facs="1946_06.jpg"/>
          <div>
-            <head type="2" rend="centered">WILLA CATHER</head>
+            <head type="2" rend="centered">WILLA CATHER</head><anchor xml:id="WillaCather"/>
          <space type="double"/>
          <byline rend="centered">Edith Spatz</byline>
          <space type="double"/>
@@ -536,7 +536,7 @@
          </div>
          <pb facs="1946_07.jpg"/>
          <div>
-            <head type="2" rend="centered">MY CHRISTMAS MEMORIES</head>
+            <head type="2" rend="centered">MY CHRISTMAS MEMORIES</head><anchor xml:id="MyChristmas"/>
             <space type="double"/>
             <byline rend="centered">Howard Bingham</byline>
             <space type="triple"/>
@@ -603,7 +603,7 @@
          </div>
          <space type="triple"/>
          <div><lg type="poem">
-            <head type="2" rend="centered">A BULGING BUS</head>
+            <head type="2" rend="centered">A BULGING BUS</head><anchor xml:id="ABulging"/>
             <space type="double"/>
             <byline rend="centered">Mary Lou McGerr</byline>
             <space type="triple"/>
@@ -643,7 +643,7 @@
          </lg></div>
          <pb facs="1946_09.jpg"/>
          <div>
-            <head type="2" rend="centered">BOYS WHO SMOKE</head>
+            <head type="2" rend="centered">BOYS WHO SMOKE</head><anchor xml:id="BoysWho"/>
             <space type="double"/>
             <byline rend="centered">Martha Webb</byline>
             <space type="double"/>
@@ -720,7 +720,7 @@
          </div>
          <space type="quadruple"/>
          <div>
-            <head type="2" rend="centered">YOUTH WEEK</head>
+            <head type="2" rend="centered">YOUTH WEEK</head><anchor xml:id="YouthWeek"/>
             <head type="subtitle" rend="centered">JAN. 27-FEB.4, 1946</head>
             <space type="double"/>
             <byline rend="centered">Harriet Crawford</byline>
@@ -758,7 +758,7 @@
          </div>
          <pb facs="1946_11.jpg"/>
          <div>
-            <head type="2" rend="centered">TRIPPING THE LIGHT FANTASTIC</head>
+            <head type="2" rend="centered">TRIPPING THE LIGHT FANTASTIC</head><anchor xml:id="TrippingThe"/>
             <head type="subtitle"><specDesc style="centered"/>(Consisting of a critical analysis of the positions most commonly used therein)</head>
             <space type="double"/>
             <byline rend="centered">Twyla Dobbins</byline>
@@ -883,7 +883,7 @@
             <figure>
                <figDesc rend="left aligned">A hand drawn face appearing to be black</figDesc>
             </figure>            
-            <head type="2" rend="centered">NEGROES AND WHITES<ptr target="#naw" n="5"/></head> 
+            <head type="2" rend="centered">NEGROES AND WHITES<ptr target="#naw" n="5"/></head><anchor xml:id="NegroesAnd"/>
             <space type="double"/>
             <byline rend="centered">Lee Barnhill</byline>
             <figure>
@@ -944,7 +944,7 @@
          </div>
          <space type="double"/>
          <div>
-            <head type="2" rend="centered">MY HOME</head>
+            <head type="2" rend="centered">MY HOME</head><anchor xml:id="MyHome"/>
             <space type="double"/>
             <byline rend="centered">Ruthie Merklin</byline>
             <space type="double"/>
@@ -1076,7 +1076,7 @@
          </div>
          <space type="triple"/>
          <div> 
-            <head type="2" rend="centered">JAZZ MANIACS<ptr target="#jm" n="7"/></head>
+            <head type="2" rend="centered">JAZZ MANIACS<ptr target="#jm" n="7"/></head><anchor xml:id="JazzManiacs"/>
             <space type="double"/>
             <byline rend="centered">John Moritz</byline>
             <space type="triple"/>
@@ -1166,7 +1166,7 @@
          </div>
          <space type="double"/>
          <div> <lg type="poem">
-            <head type="2" rend="centered">SLEEP</head>
+            <head type="2" rend="centered">SLEEP</head><anchor xml:id="Sleep"/>
             <space type="double"/>
             <byline rend="centered">John Moritz</byline>
             <space type="triple"/>
@@ -1180,7 +1180,7 @@
          <pb facs="1946_18.jpg"/>
         <div>
            <space type="quadruple"/>
-           <head type="2" rend="centered"> ICE SKATING OR OTHERWISE</head>
+           <head type="2" rend="centered"> ICE SKATING OR OTHERWISE</head><anchor xml:id="IceSkating"/>
            <space type="double"/>
            <byline rend="centered">Marian Waddell</byline>
            <space type="triple"/>
@@ -1235,7 +1235,7 @@
            </fw>
           <pb facs="1946_19.jpg"/>
          <div>
-           <head type="2" rend="centered">THREE GREAT DOCUMENTS IN THEHISTORY OF THE UNITED STATES</head>
+            <head type="2" rend="centered">THREE GREAT DOCUMENTS IN THEHISTORY OF THE UNITED STATES</head><anchor xml:id="ThreeGreat"/>
            <space type="double"/>
            <byline rend="centered">Ruby Hock</byline>
             <space type="double"/>
@@ -1468,7 +1468,7 @@
          </div>
          <space type="double"/>
          <div>
-            <head type="2" rend="centered">WHO WERE THE GREEKS?</head>
+            <head type="2" rend="centered">WHO WERE THE GREEKS?</head><anchor xml:id="WhoWere"/>
             <space type="double"/>
             <byline rend="centered">Leslie Chisholm</byline>
             <space type="double"/>
@@ -1625,7 +1625,7 @@
          </div>
          <space type="triple"/>
          <div>
-            <head type="2" rend="centered">BUSES- -TO BE SQUASHED OR NOT TO BE SQUASHED</head>
+            <head type="2" rend="centered">BUSES- -TO BE SQUASHED OR NOT TO BE SQUASHED</head><anchor xml:id="BusesTo"/>
             <space type="double"/>
             <byline rend="centered">Shirley Will</byline>
             <space type="triple"/>
@@ -1698,7 +1698,7 @@
          <pb facs="1946_27.jpg"/>
          <div>
             <space type="quadruple"/>
-            <head type="2" rend="centered">MACBETH BY FAIRES<ptr target="#macbeth" n="9"/></head>
+            <head type="2" rend="centered">MACBETH BY FAIRES<ptr target="#macbeth" n="9"/></head><anchor xml:id="MacbethFaires"/>
                  <figure><figDesc>hand-drawn picture of Bugs Bunny dressed as a knight and holding a carrot. It spans almost the entire height of the page.</figDesc></figure>
                    <p>
                       <figure><figDesc>fancy "Y"</figDesc></figure>You are about to read <lb/>
@@ -1851,7 +1851,7 @@
          </div>
         <space type="triple"/>
          <div>
-            <head type="2" rend="centered">OLD FRIENDS OF THE FAMILY</head>
+            <head type="2" rend="centered">OLD FRIENDS OF THE FAMILY</head><anchor xml:id="OldFriends"/>
             <space type="double"/>
             <byline rend="centered">Jenibel Briggs</byline>
             <space type="double"/>
@@ -1932,7 +1932,7 @@
          <pb facs="1946_32.jpg"/>
          <div>
             <space type="triple"/>
-            <head type="2" rend="centered">HISTORY OF ALGEBRA</head>
+            <head type="2" rend="centered">HISTORY OF ALGEBRA</head><anchor xml:id="HistoryOf"/>
             <space type="double"/>
             <byline rend="centered">Audrey Flood</byline>
             <space type="triple"/>
@@ -1993,7 +1993,7 @@
          </div>
          <space type="triple"/>
          <div>
-            <head type="2" rend="centered">PERFUME AND THE LADIES (AND THE MEN)</head>
+            <head type="2" rend="centered">PERFUME AND THE LADIES (AND THE MEN)</head><anchor xml:id="PerfumeAnd"/>
             <space type="triple"/>
             <byline rend="centered">- -"Rog" Phipps</byline>
             <space type="triple"/>
@@ -2083,7 +2083,7 @@
          </div>
          <pb facs="1946_35.jpg"/>
          <div>
-            <head type="2" rend="centered">ONE TOO MANY SISTERS</head>
+            <head type="2" rend="centered">ONE TOO MANY SISTERS</head><anchor xml:id="OneToo"/>
             <space type="double"/>
             <byline rend="centered">Roberta Flory</byline>
             <space type="triple"/>
@@ -2240,7 +2240,7 @@
          </div>
          <space type="triple"/>
          <div>
-            <head type="2" rend="centered">I'LL BE HOME FOR CHRISTMAS</head>
+            <head type="2" rend="centered">I'LL BE HOME FOR CHRISTMAS</head><anchor xml:id="IllBe"/>
             <space type="double"/>
             <byline rend="centered">Ardeen Miller</byline>
             <space type="double"/>
@@ -2303,7 +2303,7 @@
          </div>
          <space type="triple"/>
          <div>
-            <head type="2" rend="centered">THE CORN COB</head>
+            <head type="2" rend="centered">THE CORN COB</head><anchor xml:id="TheCorn"/>
             <space type="double"/>
             <p>
                <figure><figDesc>fancy "W"</figDesc></figure>Well, Old Man Winter is a-whirlin' 'round the <lb/>
@@ -2424,7 +2424,7 @@
          <pb facs="1946_41.jpg"/>
          <space type="quadruple"/>
          <div>
-            <head type="2" rend="centered">HOW MANGE AGES...</head>
+            <head type="2" rend="centered">HOW MANY AGES...</head><anchor xml:id="HowMany"/>
             <space type="double"/>
             <byline rend="centered">Joan Kinsel</byline>
             <space type="triple"/>
@@ -2569,7 +2569,7 @@
          </div>
          <space type="triple"/>
          <div> <lg type="poem">
-            <head type="2" rend="centered">MACBETH<ptr target="#macbeth" n="9"/></head>
+            <head type="2" rend="centered">MACBETH<ptr target="#macbeth" n="9"/></head><anchor xml:id="MacbethBetty"/>
             <space type="double"/>
             <byline rend="centered">Betty Schwaninger</byline>
             <space type="double"/>
@@ -2791,7 +2791,7 @@
          </div>
          <space type="quadruple"/>
          <div>
-            <head type="2" rend="centered">THE DREAM COMES TRUE</head>
+            <head type="2" rend="centered">THE DREAM COMES TRUE</head><anchor xml:id="TheDream"/>
             <space type="double"/>
             <byline rend="centered">Katie Lehman</byline>
             <space type="triple"/>
