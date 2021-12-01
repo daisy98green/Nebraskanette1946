@@ -117,7 +117,7 @@
             <xsl:attribute name="href">
                 <xsl:value-of select="@target"/>
             </xsl:attribute>
-            <xsl:value-of select="@n"/>
+            (<xsl:value-of select="@n"/>)  <!--Jocelyn, here is the place where I was able to select the number of the note to show intead of an asterisk.  I also put that number in parentheses as in (2), but you can remove those if you want or replace them with brackets or something.  You could also tinker with making them superscript in CSS, but that's another classing issue -->
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
