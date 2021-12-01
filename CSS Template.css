@@ -170,8 +170,10 @@ img.index {
     border-radius: 50%;
 } */
 
-/* img {
-    padding:25px;
+img {
+    padding-bottom:200px;
+    padding-right:25px;
     width:500px;
     float:left;
-} */
+    clear:left;
+}

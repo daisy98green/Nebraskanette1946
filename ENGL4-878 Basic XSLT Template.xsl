@@ -243,23 +243,8 @@
     
     <xsl:template match="tei:pb">
         <a>
-            <xsl:attribute name="href">1946/<xsl:value-of select="@facs"/></xsl:attribute><img><xsl:attribute name="src"/>1946/<xsl:value-of select="@facs"/></img>
+            <xsl:attribute name="href">1946/<xsl:value-of select="@facs"/></xsl:attribute><img><xsl:attribute name="src">1946/<xsl:value-of select="@facs"/></xsl:attribute></img>
         </a>
-    </xsl:template>
-    
-    
-    
-    <xsl:template match="tei:list">
-        <ul><!-- <ul> is an unordered list, <ol> is ordered list -->
-            <xsl:apply-templates/>
-        </ul>
-    </xsl:template>
-    
-    
-    <xsl:template match="tei:item">
-        <li>
-            <xsl:apply-templates/>
-        </li>
     </xsl:template>
     
     
