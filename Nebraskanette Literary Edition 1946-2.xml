@@ -487,7 +487,7 @@
          <byline rend="centered">Edith Spatz</byline>
          <space type="double"/>
          <p>
-            <figure><figDesc>fancy "I"</figDesc></figure>I have read a lot  of Willa Cather's<ptr target="wc"/> books and <lb/>
+            <figure><figDesc>fancy "I"</figDesc></figure>I have read a lot  of Willa Cather's<ptr target="#wc" n="1"/> books and <lb/>
             find them interesting.  She tells in a way of <lb/>
             understanding in all her books and they never <lb/>
             get boring if you like <choice><sic>peoneer</sic><corr>pioneer</corr></choice>stories.
@@ -715,7 +715,7 @@
                the corner of their mouth.  Anyway we prefer the <lb/>
                wholesome Van Johnson type.  We don't like to see <lb/>
                boys start bad habits which will last them all <lb/>
-               their lives.<ptr target="#smoke"/>
+               their lives.<ptr target="#smoke" n="2"/>
             </p>
          </div>
          <space type="quadruple"/>
@@ -731,7 +731,7 @@
             </p>
             <p>
                &#160;&#160;&#160;&#160;
-               Youth Week<ptr target="#yw"/> is observed by all young people of <lb/>
+               Youth Week<ptr target="#yw" n="3"/> is observed by all young people of <lb/>
                the Protestant Churches in North America and is <lb/>
                sponsored by the United Christian Youth Movement. <lb/>
                During this week many activities are carried out <lb/>
@@ -869,7 +869,7 @@
                make themselves the center of attention.  They <lb/>
                will execute rapid turns, hop, jump, or even turn <lb/>
                somersaults in order to be the chief attraction. <lb/>
-               This mode of dancing is commonly called "jitter-<lb/>bugging."
+               This mode of dancing is commonly called "jitter-<lb/>bugging." <ptr target="#jb" n="4"/>
             </p>
             <p>
                &#160;&#160;&#160;&#160;
@@ -883,7 +883,7 @@
             <figure>
                <figDesc rend="left aligned">A hand drawn face appearing to be black</figDesc>
             </figure>            
-            <head type="2" rend="centered">NEGROES AND WHITES<ptr target="#naw"/></head> 
+            <head type="2" rend="centered">NEGROES AND WHITES<ptr target="#naw" n="5"/></head> 
             <space type="double"/>
             <byline rend="centered">Lee Barnhill</byline>
             <figure>
@@ -949,7 +949,7 @@
             <byline rend="centered">Ruthie Merklin</byline>
             <space type="double"/>
             <p>
-               <figure><figDesc>fancy "M"</figDesc></figure>My home, the State Home for Dependent Children<ptr target="#sh"/>, <lb/>
+               <figure><figDesc>fancy "M"</figDesc></figure>My home, the State Home for Dependent Children<ptr target="#sh" n="6"/>, <lb/>
                is located at University Place, 5903 Walker Avenue. <lb/>
             </p>
             <p>
@@ -1076,7 +1076,7 @@
          </div>
          <space type="triple"/>
          <div> 
-            <head type="2" rend="centered">JAZZ MANIACS<ptr target="#jm"/></head>
+            <head type="2" rend="centered">JAZZ MANIACS<ptr target="#jm" n="7"/></head>
             <space type="double"/>
             <byline rend="centered">John Moritz</byline>
             <space type="triple"/>
@@ -1554,7 +1554,7 @@
                They had many gods.  Some of the Greek gods you <lb/>
                are familiar with are <choice><sic>Jupiter</sic><corr>Zeus</corr></choice>, the king of gods; <lb/>
                <choice><sic>Neptune</sic><corr>Poseidon</corr></choice>, god of the sea; <choice><sic>Mercury</sic><corr>Hermes</corr></choice>, messenger of the <lb/>
-               gods<ptr target="#gg"/>, and many more.
+               gods<ptr target="#gg" n="8"/>, and many more.
             </p>
             <p>
                &#160;&#160;&#160;&#160;
@@ -1698,7 +1698,7 @@
          <pb facs="1946_27.jpg"/>
          <div>
             <space type="quadruple"/>
-            <head type="2" rend="centered">MACBETH BY FAIRES<ptr target="#macbeth"/></head>
+            <head type="2" rend="centered">MACBETH BY FAIRES<ptr target="#macbeth" n="9"/></head>
                  <figure><figDesc>hand-drawn picture of Bugs Bunny dressed as a knight and holding a carrot. It spans almost the entire height of the page.</figDesc></figure>
                    <p>
                       <figure><figDesc>fancy "Y"</figDesc></figure>You are about to read <lb/>
@@ -1893,7 +1893,7 @@
                hours.  My mother urges them to stay for dinner, <lb/>
                and they accept her invitation very willingly.  My <lb/>
                heart sinks into my shoes when I have to be the <lb/>
-               "aide de camp"<ptr target="aide"/> in the kitchen, which ruins my <lb/>
+               "aide de camp"<ptr target="#aide" n="10"/> in the kitchen, which ruins my <lb/>
                evening plans to go to the basketball game.
             </p>
             <p>
@@ -2066,7 +2066,7 @@
                &#160;&#160;&#160;&#160;
                We of the masculine sex do not realize what per-<lb/>fume means to the ladies.  As some perfume ads put <lb/>
                it:  "a perfume made of all the things you love," <lb/>
-               or "Adventure, mixed with mystery, gay<ptr target="#gay"/> and lilting <lb/>
+               or "Adventure, mixed with mystery, gay<ptr target="#gay" n="11"/> and lilting <lb/>
                as ballet music."
             </p>
             <p>
@@ -2117,7 +2117,7 @@
                Her disposition is variable.  The only way I <lb/>
                can describe it is by quoting a nursery rhyme. <lb/>
                "When she is good, she is very, very good...when <lb/>
-               she is bad, she is horrid."<ptr target="#longfellow"/>  As I write more you <lb/>
+               she is bad, she is horrid."<ptr target="#longfellow" n="12"/>  As I write more you <lb/>
                will get the general idea.
             </p>
             <p>
@@ -2267,7 +2267,7 @@
                The last time Cal was in this room was three <lb/>
                years ago.  He sang songs, he joked, and he popped <lb/>
                popcorn but- -Cal would never do those things again. <lb/>
-               Cal was dead, killed at Salerno.<ptr target="#salerno"/>.
+               Cal was dead, killed at Salerno.<ptr target="#salerno" n="13"/>.
             </p>
             <p>
                &#160;&#160;&#160;&#160;
@@ -2389,7 +2389,7 @@
                &#160;&#160;&#160;&#160;
                "Ah dunno," replied he co-worker.  "But from <lb/>
                de look on his face, ah figures he dun meant, <lb/>
-               'Keep Peelin'."<ptr target="#kp"/>
+               'Keep Peelin'."<ptr target="#kp" n="14"/>
             </p>
             <space type="double"/>
                <sp><speaker>Wife: </speaker><p>"John, there's a burglar in the silver and  <lb/>another in the pantry eating my pies.  Get up and <lb/>call for help!</p></sp>
@@ -2410,7 +2410,7 @@
                Now that you've lent your ear, you can have it <lb/>
                back again.  I could tell you about a "chuck" be-<lb/>ing a Shakespearean term meaning chicken, but I <lb/>
                won't.  That's because that mean A. Flood beat me <lb/>
-               to it in that Katty Kolumn of her.<ptr target="#af"/>.    (Gerrrrrrr!) <lb/>
+               to it in that Katty Kolumn of her.<ptr target="#af" n="15"/>.    (Gerrrrrrr!) <lb/>
                - -See December issue.
             </p>
             <p>
@@ -2562,14 +2562,14 @@
             <p>
                &#160;&#160;&#160;&#160;
                "How many ages in time, no one knows the <lb/>
-               rhyme."  So goes an old nursery song.<ptr target="#rossetti"/>.  The drama <lb/>
+               rhyme."  So goes an old nursery song.<ptr target="#rossetti" n="16"/>.  The drama <lb/>
                of life will continue on into the ages to come <lb/>
                with man struggling onward to some final goal.
             </p>
          </div>
          <space type="triple"/>
          <div> <lg type="poem">
-            <head type="2" rend="centered">MACBETH<ptr target="#macbeth"/></head>
+            <head type="2" rend="centered">MACBETH<ptr target="#macbeth" n="9"/></head>
             <space type="double"/>
             <byline rend="centered">Betty Schwaninger</byline>
             <space type="double"/>

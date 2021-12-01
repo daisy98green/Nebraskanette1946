@@ -112,6 +112,15 @@
     </xsl:template> -->
     
     
+    <xsl:template match="tei:ptr">
+        <xsl:element name="a">
+            <xsl:attribute name="href">
+                <xsl:value-of select="@target"/>
+            </xsl:attribute>
+            *
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
     
     
     <xsl:template match="tei:space"/>
@@ -211,10 +220,14 @@
     
     <xsl:template match="tei:note[@type='editorial']">
         <p class="editorial">
-            <xsl:apply-templates/>
+            <xsl:element name="a">
+                <xsl:attribute name="id">
+                    <xsl:value-of select="@xml:id"/>
+                </xsl:attribute>
+                <xsl:apply-templates/>
+            </xsl:element>
         </p>
-    </xsl:template>
-    
+    </xsl:template>        
     
     
     <xsl:template match="tei:ref">
