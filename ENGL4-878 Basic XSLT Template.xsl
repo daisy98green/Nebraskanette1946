@@ -80,6 +80,12 @@
         </p>
     </xsl:template>
     
+ <!--   <xsl:template match="tei:p[@rend='banner']">
+        <p class="banner">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template> -->
+    
     
     <xsl:template match="tei:sp/tei:p">
             <xsl:apply-templates/>
@@ -99,22 +105,37 @@
     </xsl:template>
     
     
+ <!--   <xsl:template match="tei:div[@type='banner']">
+        <section class="banner">
+            <xsl:apply-templates/>
+        </section>
+    </xsl:template> -->
+    
+    
     
     
     <xsl:template match="tei:space"/>
     
     
-    <xsl:template match="tei:head[@type='1']">
+    
+ <!--   <xsl:template match="tei:head[@type='banner']">
         <h1>
             <xsl:apply-templates/>
         </h1>
+    </xsl:template>  -->
+    
+    
+    <xsl:template match="tei:head[@type='1']">
+        <h2>
+            <xsl:apply-templates/>
+        </h2>
     </xsl:template>
     
     
     <xsl:template match="tei:head[@type='2']">
-        <h2>
+        <h3>
             <xsl:apply-templates/>
-        </h2>
+        </h3>
     </xsl:template>
 
 
@@ -123,6 +144,8 @@
             <xsl:apply-templates/>
         </h4>
     </xsl:template>
+    
+
     
     <xsl:template match="label">
         <h5>

@@ -63,6 +63,9 @@
   </teiHeader>
   <text>
      <front>
+       <!-- <div type="banner"><head type="banner">Teachers' College High School <hi rend="italic">The Nebraskanette</hi> Digital Edition</head>
+           <p rend="banner">Edited by Jocelyn Clayton</p>
+        </div> -->
         <pb facs="1946_00.jpg"/>
 <titlePage>
    <docTitle rend="centered"><titlePart type="main">NEBRASKANETTE</titlePart></docTitle>
@@ -2955,4 +2958,4 @@
   </text>
 </TEI> 
 
-<!-- facsimiles showing up, how to add weblinks-->
+<!-- facsimiles showing up, how to add weblinks, how to add note numbers in text-->
