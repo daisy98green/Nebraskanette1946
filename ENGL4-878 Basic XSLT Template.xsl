@@ -117,7 +117,7 @@
             <xsl:attribute name="href">
                 <xsl:value-of select="@target"/>
             </xsl:attribute>
-            *
+            <xsl:value-of select="@n"/>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
