@@ -1,7 +1,7 @@
 p {
 text-align: justify;
 text-justify: inter-word;
-font-family: courier-new, times-new-roman;
+font-family: courier-new, garamond, times-new-roman;
 font-size: 16px;
 color: black;
 }
@@ -46,7 +46,7 @@ h2 {
 }
 
 h3 {
-font-family: courier-new, times-new-roman;
+font-family: courier-new, garamond, times-new-roman;
 text-decoration: underline;
 text-align:center;
 }
