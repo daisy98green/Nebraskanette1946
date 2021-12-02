@@ -80,6 +80,15 @@
         </p>
     </xsl:template>
     
+    <xsl:template match="tei:ref">
+        <xsl:element name="a">
+            <xsl:attribute name="href">
+            <xsl:value-of select="@target"/>
+           <xsl:apply-templates/>
+            </xsl:attribute>
+        </xsl:element>
+    </xsl:template>
+    
     
     <xsl:template match="tei:sp/tei:p">
             <xsl:apply-templates/>
@@ -240,12 +249,12 @@
     
     
     <xsl:template match="tei:ref">
-        <a>
+        <xsl:element name="a">
             <xsl:attribute name="href">
-                <xsl:apply-templates select="@target"/>
+                <xsl:value-of select="@source"/>
             </xsl:attribute>
             <xsl:apply-templates/>
-        </a>
+        </xsl:element>
     </xsl:template>
     
     

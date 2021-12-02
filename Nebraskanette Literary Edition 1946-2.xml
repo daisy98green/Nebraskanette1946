@@ -48,6 +48,8 @@
      </profileDesc>
      <revisionDesc>
         <listChange>
+           <change when="2021-12-02" who="#jc" status="draft">Altered TOC anchors to beginning of titles.</change>
+           <change when="2021-12-01" who="#jc" status="draft">Added Table of Contents ptrs and anchors. Altered ptrs for notes.</change>
            <change when="2021-11-29" who="#jc" status="draft">Finished notes and work cited entries</change>
            <change when="2021-11-22" who="#jc" status="draft">Added notes, created works cited entries, changed formatting for Table of Contents, deleted spaces between lines ending with "-" to prevent space in HTML</change>
            <change when="2021-11-19" who="#jc" status="draft">Reverted most of the coding from 11-18-2021.</change>
@@ -63,9 +65,6 @@
   </teiHeader>
   <text>
      <front>
-       <!-- <div type="banner"><head type="banner">Teachers' College High School <hi rend="italic">The Nebraskanette</hi> Digital Edition</head>
-           <p rend="banner">Edited by Jocelyn Clayton</p>
-        </div> -->
         <pb facs="1946_00.jpg"/>
 <titlePage>
    <docTitle rend="centered"><titlePart type="main">NEBRASKANETTE</titlePart></docTitle>
@@ -368,7 +367,7 @@
         <pb facs="1946_03.jpg"/>
         <div>
            <space type="quadruple"/>
-           <head type="2" rend="centered">PREFACE</head><anchor xml:id="Preface"/>
+           <anchor xml:id="Preface"/><head type="2" rend="centered">PREFACE</head>
            <space type="triple"/>
            <p>
               <figure><figDesc>fancy "L"</figDesc></figure>Last year a new idea was worked out <lb/>
@@ -392,7 +391,7 @@
       <body>
          <pb facs="1946_04.jpg"/>
          <div>
-            <head type="2" rend="centered">STAGEFRIGHT</head><anchor xml:id="Stagefright"/>
+            <anchor xml:id="Stagefright"/><head type="2" rend="centered">STAGEFRIGHT</head>
          <space type="double"/>
          <byline rend="centered">Barbara Fifer</byline>
          <space type="triple"/>
@@ -482,7 +481,7 @@
          </div>
          <pb facs="1946_06.jpg"/>
          <div>
-            <head type="2" rend="centered">WILLA CATHER</head><anchor xml:id="WillaCather"/>
+            <anchor xml:id="WillaCather"/><head type="2" rend="centered">WILLA CATHER</head>
          <space type="double"/>
          <byline rend="centered">Edith Spatz</byline>
          <space type="double"/>
@@ -536,7 +535,7 @@
          </div>
          <pb facs="1946_07.jpg"/>
          <div>
-            <head type="2" rend="centered">MY CHRISTMAS MEMORIES</head><anchor xml:id="MyChristmas"/>
+            <anchor xml:id="MyChristmas"/><head type="2" rend="centered">MY CHRISTMAS MEMORIES</head>
             <space type="double"/>
             <byline rend="centered">Howard Bingham</byline>
             <space type="triple"/>
@@ -603,7 +602,7 @@
          </div>
          <space type="triple"/>
          <div><lg type="poem">
-            <head type="2" rend="centered">A BULGING BUS</head><anchor xml:id="ABulging"/>
+            <anchor xml:id="ABulging"/><head type="2" rend="centered">A BULGING BUS</head>
             <space type="double"/>
             <byline rend="centered">Mary Lou McGerr</byline>
             <space type="triple"/>
@@ -643,7 +642,7 @@
          </lg></div>
          <pb facs="1946_09.jpg"/>
          <div>
-            <head type="2" rend="centered">BOYS WHO SMOKE</head><anchor xml:id="BoysWho"/>
+            <anchor xml:id="BoysWho"/><head type="2" rend="centered">BOYS WHO SMOKE</head>
             <space type="double"/>
             <byline rend="centered">Martha Webb</byline>
             <space type="double"/>
@@ -720,7 +719,7 @@
          </div>
          <space type="quadruple"/>
          <div>
-            <head type="2" rend="centered">YOUTH WEEK</head><anchor xml:id="YouthWeek"/>
+            <anchor xml:id="YouthWeek"/><head type="2" rend="centered">YOUTH WEEK</head>
             <head type="subtitle" rend="centered">JAN. 27-FEB.4, 1946</head>
             <space type="double"/>
             <byline rend="centered">Harriet Crawford</byline>
@@ -758,7 +757,7 @@
          </div>
          <pb facs="1946_11.jpg"/>
          <div>
-            <head type="2" rend="centered">TRIPPING THE LIGHT FANTASTIC</head><anchor xml:id="TrippingThe"/>
+            <anchor xml:id="TrippingThe"/><head type="2" rend="centered">TRIPPING THE LIGHT FANTASTIC</head>
             <head type="subtitle"><specDesc style="centered"/>(Consisting of a critical analysis of the positions most commonly used therein)</head>
             <space type="double"/>
             <byline rend="centered">Twyla Dobbins</byline>
@@ -883,7 +882,7 @@
             <figure>
                <figDesc rend="left aligned">A hand drawn face appearing to be black</figDesc>
             </figure>            
-            <head type="2" rend="centered">NEGROES AND WHITES<ptr target="#naw" n="5"/></head><anchor xml:id="NegroesAnd"/>
+            <anchor xml:id="NegroesAnd"/><head type="2" rend="centered">NEGROES AND WHITES<ptr target="#naw" n="5"/></head>
             <space type="double"/>
             <byline rend="centered">Lee Barnhill</byline>
             <figure>
@@ -944,7 +943,7 @@
          </div>
          <space type="double"/>
          <div>
-            <head type="2" rend="centered">MY HOME</head><anchor xml:id="MyHome"/>
+            <anchor xml:id="MyHome"/><head type="2" rend="centered">MY HOME</head>
             <space type="double"/>
             <byline rend="centered">Ruthie Merklin</byline>
             <space type="double"/>
@@ -1076,7 +1075,7 @@
          </div>
          <space type="triple"/>
          <div> 
-            <head type="2" rend="centered">JAZZ MANIACS<ptr target="#jm" n="7"/></head><anchor xml:id="JazzManiacs"/>
+            <anchor xml:id="JazzManiacs"/><head type="2" rend="centered">JAZZ MANIACS<ptr target="#jm" n="7"/></head>
             <space type="double"/>
             <byline rend="centered">John Moritz</byline>
             <space type="triple"/>
@@ -1166,7 +1165,7 @@
          </div>
          <space type="double"/>
          <div> <lg type="poem">
-            <head type="2" rend="centered">SLEEP</head><anchor xml:id="Sleep"/>
+            <anchor xml:id="Sleep"/><head type="2" rend="centered">SLEEP</head>
             <space type="double"/>
             <byline rend="centered">John Moritz</byline>
             <space type="triple"/>
@@ -1180,7 +1179,7 @@
          <pb facs="1946_18.jpg"/>
         <div>
            <space type="quadruple"/>
-           <head type="2" rend="centered"> ICE SKATING OR OTHERWISE</head><anchor xml:id="IceSkating"/>
+           <anchor xml:id="IceSkating"/><head type="2" rend="centered"> ICE SKATING OR OTHERWISE</head>
            <space type="double"/>
            <byline rend="centered">Marian Waddell</byline>
            <space type="triple"/>
@@ -1235,7 +1234,7 @@
            </fw>
           <pb facs="1946_19.jpg"/>
          <div>
-            <head type="2" rend="centered">THREE GREAT DOCUMENTS IN THEHISTORY OF THE UNITED STATES</head><anchor xml:id="ThreeGreat"/>
+            <anchor xml:id="ThreeGreat"/><head type="2" rend="centered">THREE GREAT DOCUMENTS IN THEHISTORY OF THE UNITED STATES</head>
            <space type="double"/>
            <byline rend="centered">Ruby Hock</byline>
             <space type="double"/>
@@ -1468,7 +1467,7 @@
          </div>
          <space type="double"/>
          <div>
-            <head type="2" rend="centered">WHO WERE THE GREEKS?</head><anchor xml:id="WhoWere"/>
+            <anchor xml:id="WhoWere"/><head type="2" rend="centered">WHO WERE THE GREEKS?</head>
             <space type="double"/>
             <byline rend="centered">Leslie Chisholm</byline>
             <space type="double"/>
@@ -1625,7 +1624,7 @@
          </div>
          <space type="triple"/>
          <div>
-            <head type="2" rend="centered">BUSES- -TO BE SQUASHED OR NOT TO BE SQUASHED</head><anchor xml:id="BusesTo"/>
+            <anchor xml:id="BusesTo"/><head type="2" rend="centered">BUSES- -TO BE SQUASHED OR NOT TO BE SQUASHED</head>
             <space type="double"/>
             <byline rend="centered">Shirley Will</byline>
             <space type="triple"/>
@@ -1698,7 +1697,7 @@
          <pb facs="1946_27.jpg"/>
          <div>
             <space type="quadruple"/>
-            <head type="2" rend="centered">MACBETH BY FAIRES<ptr target="#macbeth" n="9"/></head><anchor xml:id="MacbethFaires"/>
+            <anchor xml:id="MacbethFaires"/><head type="2" rend="centered">MACBETH BY FAIRES<ptr target="#macbeth" n="9"/></head>
                  <figure><figDesc>hand-drawn picture of Bugs Bunny dressed as a knight and holding a carrot. It spans almost the entire height of the page.</figDesc></figure>
                    <p>
                       <figure><figDesc>fancy "Y"</figDesc></figure>You are about to read <lb/>
@@ -1851,7 +1850,7 @@
          </div>
         <space type="triple"/>
          <div>
-            <head type="2" rend="centered">OLD FRIENDS OF THE FAMILY</head><anchor xml:id="OldFriends"/>
+            <anchor xml:id="OldFriends"/><head type="2" rend="centered">OLD FRIENDS OF THE FAMILY</head>
             <space type="double"/>
             <byline rend="centered">Jenibel Briggs</byline>
             <space type="double"/>
@@ -1932,7 +1931,7 @@
          <pb facs="1946_32.jpg"/>
          <div>
             <space type="triple"/>
-            <head type="2" rend="centered">HISTORY OF ALGEBRA</head><anchor xml:id="HistoryOf"/>
+            <anchor xml:id="HistoryOf"/><head type="2" rend="centered">HISTORY OF ALGEBRA</head>
             <space type="double"/>
             <byline rend="centered">Audrey Flood</byline>
             <space type="triple"/>
@@ -1993,7 +1992,7 @@
          </div>
          <space type="triple"/>
          <div>
-            <head type="2" rend="centered">PERFUME AND THE LADIES (AND THE MEN)</head><anchor xml:id="PerfumeAnd"/>
+            <anchor xml:id="PerfumeAnd"/><head type="2" rend="centered">PERFUME AND THE LADIES (AND THE MEN)</head>
             <space type="triple"/>
             <byline rend="centered">- -"Rog" Phipps</byline>
             <space type="triple"/>
@@ -2083,7 +2082,7 @@
          </div>
          <pb facs="1946_35.jpg"/>
          <div>
-            <head type="2" rend="centered">ONE TOO MANY SISTERS</head><anchor xml:id="OneToo"/>
+            <anchor xml:id="OneToo"/><head type="2" rend="centered">ONE TOO MANY SISTERS</head>
             <space type="double"/>
             <byline rend="centered">Roberta Flory</byline>
             <space type="triple"/>
@@ -2240,7 +2239,7 @@
          </div>
          <space type="triple"/>
          <div>
-            <head type="2" rend="centered">I'LL BE HOME FOR CHRISTMAS</head><anchor xml:id="IllBe"/>
+            <anchor xml:id="IllBe"/><head type="2" rend="centered">I'LL BE HOME FOR CHRISTMAS</head>
             <space type="double"/>
             <byline rend="centered">Ardeen Miller</byline>
             <space type="double"/>
@@ -2303,7 +2302,7 @@
          </div>
          <space type="triple"/>
          <div>
-            <head type="2" rend="centered">THE CORN COB</head><anchor xml:id="TheCorn"/>
+            <anchor xml:id="TheCorn"/><head type="2" rend="centered">THE CORN COB</head>
             <space type="double"/>
             <p>
                <figure><figDesc>fancy "W"</figDesc></figure>Well, Old Man Winter is a-whirlin' 'round the <lb/>
@@ -2424,7 +2423,7 @@
          <pb facs="1946_41.jpg"/>
          <space type="quadruple"/>
          <div>
-            <head type="2" rend="centered">HOW MANY AGES...</head><anchor xml:id="HowMany"/>
+            <anchor xml:id="HowMany"/><head type="2" rend="centered">HOW MANY AGES...</head>
             <space type="double"/>
             <byline rend="centered">Joan Kinsel</byline>
             <space type="triple"/>
@@ -2569,7 +2568,7 @@
          </div>
          <space type="triple"/>
          <div> <lg type="poem">
-            <head type="2" rend="centered">MACBETH<ptr target="#macbeth" n="9"/></head><anchor xml:id="MacbethBetty"/>
+            <anchor xml:id="MacbethBetty"/><head type="2" rend="centered">MACBETH<ptr target="#macbeth" n="9"/></head>
             <space type="double"/>
             <byline rend="centered">Betty Schwaninger</byline>
             <space type="double"/>
@@ -2791,7 +2790,7 @@
          </div>
          <space type="quadruple"/>
          <div>
-            <head type="2" rend="centered">THE DREAM COMES TRUE</head><anchor xml:id="TheDream"/>
+            <anchor xml:id="TheDream"/><head type="2" rend="centered">THE DREAM COMES TRUE</head>
             <space type="double"/>
             <byline rend="centered">Katie Lehman</byline>
             <space type="triple"/>
@@ -2900,12 +2899,12 @@
            <note type="editorial" xml:id="gg"><hi rend="bold">Note 8:</hi> The author of this essay mixed up the Roman and Greek gods. The student likely learned about both of these civilizations around the same time in class. Since the Roman culture appropriated many of the Greek customs, including their dieties, the student likely misremembered which diety names were the Greek version and which were the Roman version. As such, they put the Roman names in their essay. The corrected Greek version are noted.</note>
            <note type="editorial" xml:id="macbeth"><hi rend="bold">Note 9:</hi> This work is a parody of William Shakespeare's <hi rend="italic">Macbeth</hi>. <hi rend="italic">Macbeth</hi> is one of Shakespeare's shorter tragedies and was likely written between 1599 and 1606. The play is originally set in Scotland and follows Scottish general Macbeth as he hungers for political power. Macbeth and his wife Lady Macbeth both spiral downward as they encounter the consequences of greed ("Macbeth by William Shakespeare"). The author of this parody likely read the play in class, and then chose to create an alternate version of the text, sometimes staying close to the original and sometimes drifting away.</note>
            <note type="editorial" xml:id="aide"><hi rend="bold">Note 10:</hi> "Aide de camp" means "a subordinate military or naval officer acting as a confidential assistant to a superior, usually to a general officer or admiral" ("aide-de-camp"). In the context of this text, the author is likely insinuating that she feels like her mother's subordinate who is forced to help in the kitchen, even though she'd rather not.</note>
-           <note type="editorial" xml:id="gay"><hi rend="bold">Note 11:</hi> Although "gay" started showing up in written psychological works in the 1940s, it wasn't until the 1970s that the word become a more common term for "a (usually male) homosexual" ("gay (adj.)"). Before it became more common to discuss sexual orientation in the 1970s, "gay" described a person who was "full of joy, merry; light-hearted, carefree" or someone who was "wanton, lewd, lascivious" ("gay (adj.)"). For this text, the meaning is likely the first archaic definition, describing a joyous or carefree feeling. For more information on the etymology of the term "gay," visit www.etymonline.com/word/gay</note>
-           <note type="editorial" xml:id="longfellow"><hi rend="bold">Note 12:</hi> Although the author states that their quote is from a nursery rhyme, the quote is actually from a Henry Wadsworth Longfellow poem entitled "There was a little girl." To read the entire short poem, visit www.poetryfoundation.org/poems/44650/there-was-a-little-girl.</note>
-           <note type="editorial" xml:id="salerno"><hi rend="bold">Note 13:</hi> In this text, "Salerno" likely refers to the Allied invasion of Italy in September 1943 during World War II. The invasion did not end well. The US army tried to time the invasion with the Italian surrender, but it did not go according to plan. The Germans quickly took control of Italy when the surrender occurred, and thus the US troops met heavy fire as they came onshore. The resulting battle was horrible. After three days, it seeme the US army was finished, but they (with help from the British) brough in technological weapons and and eventually the German army was defeated. However, this was not without heavy causalties on both sides (Citino). To read a more day-by-day narrative of the battle, visit www.nationalww2museum.org/war/articles/75-years-ago-us-invasion-italy. </note>
+           <note type="editorial" xml:id="gay"><hi rend="bold">Note 11:</hi> Although "gay" started showing up in written psychological works in the 1940s, it wasn't until the 1970s that the word become a more common term for "a (usually male) homosexual" ("gay (adj.)"). Before it became more common to discuss sexual orientation in the 1970s, "gay" described a person who was "full of joy, merry; light-hearted, carefree" or someone who was "wanton, lewd, lascivious" ("gay (adj.)"). For this text, the meaning is likely the first archaic definition, describing a joyous or carefree feeling. For more information on the etymology of the term "gay," visit <ref source="https://www.etymonline.com/word/gay">this webpage</ref>.</note>
+           <note type="editorial" xml:id="longfellow"><hi rend="bold">Note 12:</hi> Although the author states that their quote is from a nursery rhyme, the quote is actually from a Henry Wadsworth Longfellow poem entitled "There was a little girl." To read the entire short poem, visit <ref source="https://www.poetryfoundation.org/poems/44650/there-was-a-little-girl">this webpage</ref>.</note>
+           <note type="editorial" xml:id="salerno"><hi rend="bold">Note 13:</hi> In this text, "Salerno" likely refers to the Allied invasion of Italy in September 1943 during World War II. The invasion did not end well. The US army tried to time the invasion with the Italian surrender, but it did not go according to plan. The Germans quickly took control of Italy when the surrender occurred, and thus the US troops met heavy fire as they came onshore. The resulting battle was horrible. After three days, it seeme the US army was finished, but they (with help from the British) brough in technological weapons and and eventually the German army was defeated. However, this was not without heavy causalties on both sides (Citino). To read a more day-by-day narrative of the battle, visit <ref source="https://www.nationalww2museum.org/war/articles/75-years-ago-us-invasion-italy">this webpage</ref>. </note>
            <note type="editorial" xml:id="kp"><hi rend="bold">Note 14:</hi> In the military, "K. P." means "Kitchen Police" or "Kitchen Patrol." This duty is often assigned to lower-ranking personnel ("KP duty"). In the context of this "joke," the racial tension between the seemingly uneducated "colored" soldiers and the implied white sergeant shows just how this "lower-ranking personnel" might have been chosen for K. P. duty.</note>
            <note type="editorial" xml:id="af"><hi rend="bold">Note 15:</hi> "A. Flood" likely refers to the author's classmate Audrey Flood, who wrote "The History of Algebra."</note>
-           <note type="editorial" xml:id="rossetti"><hi rend="bold">Note 16:</hi> Although the author states that their quote is from a nursery rhyme, the quote is actually from a Christina Rossetti poem entitled "How Many Seconds?" To read the entire poem, visit quillsliteracy.org/how-many-seconds-by-christina-rossetti-1684/.</note>
+           <note type="editorial" xml:id="rossetti"><hi rend="bold">Note 16:</hi> Although the author states that their quote is from a nursery rhyme, the quote is actually from a Christina Rossetti poem entitled "How Many Seconds?" To read the entire poem, visit <ref  source="https://quillsliteracy.org/how-many-seconds-by-christina-rossetti-1684/">this webpage</ref>.</note>
            
            <p rend="centered"><hi rend="bold">Works Cited</hi></p>
            <p>
@@ -2958,4 +2957,4 @@
   </text>
 </TEI> 
 
-<!-- facsimiles showing up, how to add weblinks, how to add note numbers in text-->
+<!-- fix weblinks in notes -->
