@@ -7,41 +7,50 @@ color: black;
 }
 
 p.title {
+    font-family: courier-new, garamond, times-new-roman;
     text-align:center;
 }
 
 p.docImprint {
+    font-family: courier-new, garamond, times-new-roman;
     text-align:center;
 }
 
 p.docDate {
+    font-family: courier-new, garamond, times-new-roman;
     text-align:center;
 }
 
 table {
+    font-family: courier-new, garamond, times-new-roman;
     width:50%;
 }
 
 td {
+    font-family: courier-new, garamond, times-new-roman;
     text-align:justify;
     padding:15px;
 }
 
 td.right {
+    font-family: courier-new, garamond, times-new-roman;
     text-align:right;
 }
 
 p.stage {
+    font-family: courier-new, garamond, times-new-roman;
     text-align:center;
 }
 
 button {
+    font-family: courier-new, garamond, times-new-roman;
     text-align: center;
     display:center;
 }
 
   
 h2 {
+    font-family: courier-new, garamond, times-new-roman;
     text-align:center;
 }
 
@@ -52,32 +61,39 @@ text-align:center;
 }
 
 h4 {
+    font-family: courier-new, garamond, times-new-roman;
     text-align:center;
 }
 
 h5 {
+    font-family: courier-new, garamond, times-new-roman;
     text-align:center;
 }
 
 p.closer {
+    font-family: courier-new, garamond, times-new-roman;
     text-align:right;
 }
 
 
 p.byline {
+    font-family: courier-new, garamond, times-new-roman;
     text-align: center;
 }
 
 p.editorial {
+    font-family: courier-new, garamond, times-new-roman;
 color:black;  
 line-height: 1.5;
 }
 
 p.center {
+    font-family: courier-new, garamond, times-new-roman;
     text-align:center;
 }
 
 div.notes {
+    font-family: courier-new, garamond, times-new-roman;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 150px;
@@ -85,6 +101,7 @@ div.notes {
 }
 
 body {
+    font-family: courier-new, garamond, times-new-roman;
 background-color: tan;
 margin-right:125px;
 margin-left:125px;
@@ -96,6 +113,7 @@ background-color:black;
 }
 
 author {
+    font-family: courier-new, garamond, times-new-roman;
     text-align:center
 }
 
