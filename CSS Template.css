@@ -130,7 +130,7 @@ img {
     padding-right:25px;
     width:500px;
     float:left;
-    clear:left;
+    clear:both;
 }
 
 hr {
