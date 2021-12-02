@@ -253,6 +253,9 @@
             <xsl:attribute name="href">
                 <xsl:value-of select="@source"/>
             </xsl:attribute>
+            <xsl:attribute name="class">
+                <xsl:value-of select="@type"/>
+            </xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
