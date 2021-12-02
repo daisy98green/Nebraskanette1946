@@ -99,12 +99,12 @@ author {
 }
 
 
-/*img {
+img {
     padding-bottom:200px;
     padding-right:25px;
     width:500px;
     float:left;
-    clear:left;*/
+    clear:left;
 }
 
 img.index {
@@ -113,5 +113,6 @@ img.index {
     margin-left:auto;
     margin-right:auto;
     display:block;
-    padding:25px;
+    padding-left:25px;
+    padding-right:25px;
 }
