@@ -174,7 +174,7 @@
     
 
     
-    <xsl:template match="label">
+    <xsl:template match="tei:label">
         <h5>
             <xsl:apply-templates/>
         </h5>
