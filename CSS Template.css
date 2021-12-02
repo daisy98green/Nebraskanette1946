@@ -47,8 +47,9 @@ p.stage {
 button {
     font-family: courier-new, garamond, times-new-roman;
     text-align: center;
-    float:center;
-    clear:center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
   
