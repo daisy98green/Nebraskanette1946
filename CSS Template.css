@@ -44,12 +44,14 @@ p.stage {
     text-align:center;
 }
 
+div.button {
+    display:flex;
+    align-items:center;
+}
+
 button {
     font-family: courier-new, garamond, times-new-roman;
     text-align: center;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
 }
 
   
