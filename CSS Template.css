@@ -25,6 +25,7 @@ table {
     font-family: courier-new, garamond, times-new-roman;
     width:50%;
     column-gap:40px;
+    float:center;
 }
 
 td {
