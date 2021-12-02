@@ -100,7 +100,7 @@ p.center {
 }
 
 div.notes {
-    font-family: courier-new, garamond, times-new-roman;
+  font-family: courier-new, garamond, times-new-roman;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 150px;
@@ -135,6 +135,7 @@ img {
 }
 
 hr {
+    color: black;
     clear:both;
 }
 
