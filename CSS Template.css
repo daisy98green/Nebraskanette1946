@@ -44,10 +44,13 @@ p.stage {
     text-align:center;
 }
 
-div.button {
+div.flexC {
     display:flex;
     align-items:center;
 }
+
+#button {
+    align-self: center;
 
 button {
     font-family: courier-new, garamond, times-new-roman;
