@@ -47,6 +47,8 @@ p.stage {
 div.button {
     display:flex;
     align-items:center;
+    margin: auto;
+    width: 50%;
 }
 
 button {
