@@ -44,6 +44,11 @@ p.stage {
     text-align:center;
 }
 
+p.stage justified {
+    font-family: courier-new, garamond, times-new-roman;
+    text-align:justify;
+}
+
 div.button {
     display:flex;
     align-items:center;
