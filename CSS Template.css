@@ -23,6 +23,7 @@ p.docDate {
 
 table {
     font-family: courier-new, garamond, times-new-roman;
+    table-layout:auto;
     width:50%;
     column-gap:40px;
     float:center;
