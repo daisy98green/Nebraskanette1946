@@ -31,12 +31,11 @@ table {
 td {
     font-family: courier-new, garamond, times-new-roman;
     text-align:justify;
-    padding:15px;
 }
 
 td.right {
     font-family: courier-new, garamond, times-new-roman;
-    text-align:right;
+    text-align:center;
 }
 
 p.stage {
