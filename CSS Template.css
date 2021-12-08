@@ -158,6 +158,9 @@ img.index {
     margin-left:auto;
     margin-right:auto;
     padding-bottom:25px;
+    padding-left:none;
+    padding-right:none;
+    padding-top:none;
     display:block;
 }
 
