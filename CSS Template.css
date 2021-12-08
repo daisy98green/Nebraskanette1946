@@ -74,25 +74,6 @@ td.right {
 }
 
 
-/*button CSS*/
-div.button {
-    display:flex;
-    align-items:center;
-    margin: auto;
-    width: 175%;
-}
-
-button {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 40px;
-   border: 2px solid black;
-   font-family: courier-new, garamond, times-new-roman;
-   text-align: center;
-}
-
-
 /*heading CSS*/
 h2 {
     font-family: courier-new, garamond, times-new-roman;
