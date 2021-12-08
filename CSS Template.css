@@ -1,3 +1,4 @@
+/*<p> CSS*/
 p {
 text-align: justify;
 text-justify: inter-word;
@@ -21,6 +22,39 @@ p.docDate {
     text-align:center;
 }
 
+p.stage {
+    font-family: courier-new, garamond, times-new-roman;
+    text-align:center;
+}
+
+p.stageJustify {
+    font-family: courier-new, garamond, times-new-roman;
+    text-align:justify;
+}
+
+p.closer {
+    font-family: courier-new, garamond, times-new-roman;
+    text-align:right;
+}
+
+p.byline {
+    font-family: courier-new, garamond, times-new-roman;
+    text-align: center;
+}
+
+p.editorial {
+    font-family: courier-new, garamond, times-new-roman;
+color:black;  
+line-height: 1.5;
+}
+
+p.center {
+    font-family: courier-new, garamond, times-new-roman;
+    text-align:center;
+}
+
+
+/*table CSS*/
 table {
     font-family: courier-new, garamond, times-new-roman;
     table-layout:auto;
@@ -39,16 +73,8 @@ td.right {
     text-align:center;
 }
 
-p.stage {
-    font-family: courier-new, garamond, times-new-roman;
-    text-align:center;
-}
 
-p.stageJustify {
-    font-family: courier-new, garamond, times-new-roman;
-    text-align:justify;
-}
-
+/*button CSS*/
 div.button {
     display:flex;
     align-items:center;
@@ -66,7 +92,8 @@ button {
    text-align: center;
 }
 
-  
+
+/*heading CSS*/
 h2 {
     font-family: courier-new, garamond, times-new-roman;
     text-align:center;
@@ -89,28 +116,31 @@ h5 {
     font-size:16pt;
 }
 
-p.closer {
-    font-family: courier-new, garamond, times-new-roman;
-    text-align:right;
+
+/*<img> CSS*/
+img.index {
+    width: 100%;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:25px;
+    padding-left:none;
+    padding-right:none;
+    padding-top:none;
+    display:block;
 }
 
-
-p.byline {
-    font-family: courier-new, garamond, times-new-roman;
-    text-align: center;
+img {
+    padding-bottom:25px;
+    padding-top:25px;
+    padding-right:25px;
+    padding-left: 50px;
+    width:500px;
+    float:left;
+    clear:both;
 }
 
-p.editorial {
-    font-family: courier-new, garamond, times-new-roman;
-color:black;  
-line-height: 1.5;
-}
-
-p.center {
-    font-family: courier-new, garamond, times-new-roman;
-    text-align:center;
-}
-
+/*other CSS*/
 div.notes {
   font-family: courier-new, garamond, times-new-roman;
   margin-top: 100px;
@@ -136,34 +166,8 @@ author {
     text-align:center
 }
 
-
-img {
-    padding-bottom:25px;
-    padding-top:25px;
-    padding-right:25px;
-    padding-left: 50px;
-    width:500px;
-    float:left;
-    clear:both;
-}
-
 hr {
     color: black;
     clear:both;
-}
-
-img.index {
-    width: 100%;
-    height: auto;
-    margin-left:auto;
-    margin-right:auto;
-    padding-bottom:25px;
-    padding-left:none;
-    padding-right:none;
-    padding-top:none;
-    display:block;
-}
-
-hr {
     padding-bottom:25px;
 }
