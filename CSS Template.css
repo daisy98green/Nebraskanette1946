@@ -44,7 +44,7 @@ p.stage {
     text-align:center;
 }
 
-p.stage justified {
+p.stageJustify {
     font-family: courier-new, garamond, times-new-roman;
     text-align:justify;
 }
