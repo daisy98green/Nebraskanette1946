@@ -161,18 +161,18 @@ div.main {
 /*Floating Back-To-Top Button CSS*/
 #button {
   position: fixed;
-  bottom: 10px;
+  bottom: 15px;
   float: right;
-  right: 18.5%;
-  left: 77.25%;
-  max-width: 30px;
+  right: 15%;
+  left: 85%;
+  max-width: 40px;
   width: 100%;
   font-size: 16px;
   font-color:white;
   border-color: red;
   background-color: red;
-  padding: .5px;
-  border-radius: 4px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 #button:hover {
