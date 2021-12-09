@@ -168,14 +168,15 @@ div.main {
   max-width: 30px;
   width: 100%;
   font-size: 12px;
-  border-color: rgba(85, 85, 85, 0.2);
-  background-color: rgb(100,100,100);
+  font-color:white;
+  border-color: red;
+  background-color: red;
   padding: .5px;
   border-radius: 4px;
 }
 
 #button:hover {
-  background-color: #7dbbf1;
+  background-color: #black;
 }
 
 
