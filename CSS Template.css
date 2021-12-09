@@ -214,7 +214,7 @@ body {
 html {
  background-color:black;
  scroll-behaviour:smooth;
-    scroll-padding-top:30px;
+ scroll-padding-top:30px;
 }
 
 author {
@@ -225,4 +225,9 @@ author {
 hr {
   color: black;
   clear:both;
+}
+
+:target (
+padding-top:30px;
+scroll-padding-top:30px;
 }
