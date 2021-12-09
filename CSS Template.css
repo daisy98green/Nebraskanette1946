@@ -162,7 +162,7 @@ div.main {
 /*scroll to top button CSS*/
 .scroll-top {
     position: absolute;
-    top: 120vh;
+    top: 1000vh;
     bottom:3rem;
     right:2rem;
 }
@@ -170,7 +170,7 @@ div.main {
 .scroll-top_link {
     position: -webkit-sticky;
     position: sticky;
-    top:90vh;
+    top:970vh;
 }
 
 
