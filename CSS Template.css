@@ -61,11 +61,14 @@ table {
     width:50%;
     column-gap:40px;
     float:center;
+    text-align:justify;
+    text-justify: inter-word;
 }
 
 td {
     font-family: courier-new, garamond, times-new-roman;
     text-align:justify;
+    text-justify: inter-word;
 }
 
 td.right {
