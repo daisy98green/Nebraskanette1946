@@ -125,6 +125,9 @@ img.html {
 div.topnav {
   background-color:black;
   overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 /* Style the links inside the navigation bar */
@@ -147,6 +150,10 @@ div.topnav a:hover {
 div.topnav a.active {
   background-color: red;
   color: white;
+}
+
+div.main {
+   margin-top: 30px;
 }
 
 
