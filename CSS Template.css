@@ -189,23 +189,24 @@ div.notes {
 }
 
 body {
-    font-family: courier-new, garamond, times-new-roman;
-background-color: tan;
-margin-right:125px;
-margin-left:125px;
-padding:75px;
+  font-family: courier-new, garamond, times-new-roman;
+  background-color: tan;
+  margin-right:125px;
+  margin-left:125px;
+  padding:75px;
 }
 
 html {
-background-color:black;
+ background-color:black;
+ scroll-behaviour:smooth;
 }
 
 author {
-    font-family: courier-new, garamond, times-new-roman;
-    text-align:center
+  font-family: courier-new, garamond, times-new-roman;
+  text-align:center
 }
 
 hr {
-    color: black;
-    clear:both;
+  color: black;
+  clear:both;
 }
