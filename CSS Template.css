@@ -155,6 +155,22 @@ div.topnav a.active {
 
 div.main {
    margin-top: 30px;
+   height:300vh;
+}
+
+
+/*scroll to top button CSS*/
+.scroll-top {
+    position: absolute;
+    top: 120vh;
+    bottom:3rem;
+    right:2rem;
+}
+
+.scroll-top_link {
+    position: -webkit-sticky;
+    position: sticky;
+    top:90vh;
 }
 
 
